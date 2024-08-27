@@ -1,43 +1,46 @@
 "use client";
 import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, Pagi } from "swiper/react";
 import "swiper/css";
+import Image from "next/image";
+import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+
 
 export default function NossaEquipe() {
     const [selectedGroup, setSelectedGroup] = useState("Diretoria Executiva");
 
     const teams = {
         "Diretoria Executiva": [
-            { name: "Ricardo Oliveira", role: "Gerente de Projetos", Img: "../public/kokimoto,jpg" },
-            { name: "Maria Oliveira", role: "Designer Gráfica", img: "https://via.placeholder.com/150" },
+            { name: "Ricardo Oliveira", role: "Gerente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Maria Oliveira", role: "Designer Gráfica", Image: "/kokimoto.jpg" },
         ],
         "Conselho Consultivo": [
-            { name: "Carlos Pereira", role: "Ajudante Geral", img: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", img: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereira", role: "Ajudante Geral", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         "Conselho Fiscal": [
-            { name: "Carlos Pereira", role: "Ajudante Geral", img: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", img: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereira", role: "Ajudante Geral", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         "Administrativo": [
-            { name: "Carlos Pereira", role: "Ajudante Geral", img: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", img: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereira", role: "Ajudante Geral", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         "Educação": [
-            { name: "Carlos Pereira", role: "Ajudante Geral", img: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", img: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereira", role: "Ajudante Geral", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         "Arte e Cultura": [
-            { name: "Carlos Pereira", role: "Ajudante Geral", img: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", img: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereira", role: "Ajudante Geral", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         "Esporte e Lazer": [
-            { name: "Carlos Pereira", role: "Ajudante Geral", img: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", img: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereira", role: "Ajudante Geral", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         "Saúde e Higiene": [
-            { name: "Carlos Pereira", role: "Ajudante Geral", img: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", img: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereia", role: "Ajudante Geral", Image: "https://via.placeholder.com/150" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "https://via.placeholder.com/150" },
         ],
         // Adicione os outros grupos aqui
     };
@@ -54,6 +57,17 @@ export default function NossaEquipe() {
 
                 <div className="flex flex-col items-center mb-8">
                     <Swiper
+                        navigation={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Navigation, Autoplay, Pagination]}
+                        className="mySwiper w-full bg-cover"
+                        autoplay={{
+                            delay: 4000,
+                            disableOnInteraction: false,
+                        }}
+                        loop={true}
                         spaceBetween={10}
                         slidesPerView={2}
                         breakpoints={{
@@ -61,7 +75,6 @@ export default function NossaEquipe() {
                             768: { slidesPerView: 4 },
                             1024: { slidesPerView: 6 },
                         }}
-                        className="w-full md:w-3/4 lg:w-2/3"
                     >
                         {groups.map((group) => (
                             <SwiperSlide key={group}>
@@ -89,10 +102,12 @@ export default function NossaEquipe() {
                     {teams[selectedGroup].map((member, index) => (
                         <SwiperSlide key={index}>
                             <div className="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition duration-300 ease-in-out">
-                                <img
-                                    src={member.img}
+                                <Image
+                                    src={member.Image}
                                     alt={`Foto de ${member.name}`}
-                                    className="w-32 h-32 mx-auto rounded-full mb-4"
+                                    width={128} // Ajuste a largura da imagem conforme necessário
+                                    height={128} // Ajuste a altura da imagem conforme necessário
+                                    className="mx-auto rounded-full mb-4"
                                 />
                                 <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
                                 <p className="text-gray-600">{member.role}</p>
