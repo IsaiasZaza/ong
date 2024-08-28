@@ -49,7 +49,7 @@ export default function NossaEquipe() {
 
     return (
         <section className="py-12 bg-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl font-extrabold text-gray-900">Nossa Equipe</h2>
                     <p className="text-lg text-gray-600">Conheça os profissionais que fazem a diferença.</p>
