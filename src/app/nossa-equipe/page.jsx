@@ -40,8 +40,17 @@ export default function NossaEquipe() {
             { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         "Saúde e Higiene": [
-            { name: "Carlos Pereia", role: "Ajudante Geral", Image: "https://via.placeholder.com/150" },
-            { name: "Ana Souza", role: "Assistente de Projetos", Image: "https://via.placeholder.com/150" },
+            { name: "Carlos Pereia", role: "Ajudante Geral", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
+            { name: "Ana Souza", role: "Assistente de Projetos", Image: "/kokimoto.jpg" },
         ],
         // Adicione os outros grupos aqui
     };
@@ -49,15 +58,13 @@ export default function NossaEquipe() {
     const groups = Object.keys(teams);
 
     return (
-
-        <section className=" bg-gray-50">
+        <section className="">
             <Banner />
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl font-extrabold text-gray-900">Nossa Equipe</h2>
-                    <p className="text-lg text-gray-600">Conheça os profissionais que fazem a diferença.</p>
+            <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 bg-orange-50 rounded-lg shadow-xl mt-6">
+                <div className="">
+                    <h1 className="text-center text-3xl font-bold text-orange-900 py-4">Nossa Equipe</h1>
                 </div>
-                <div className="flex flex-col items-center mb-8">
+                <div className="flex flex-col items-center mb-8 mt-4">
                     <Swiper
                         navigation={true}
                         pagination={{
@@ -66,7 +73,7 @@ export default function NossaEquipe() {
                         modules={[Navigation, Autoplay, Pagination]}
                         className="mySwiper w-full bg-cover"
                         autoplay={{
-                            delay: 4000,
+                            delay: 2000,
                             disableOnInteraction: false,
                         }}
                         loop={true}
@@ -81,8 +88,8 @@ export default function NossaEquipe() {
                         {groups.map((group) => (
                             <SwiperSlide key={group}>
                                 <button
-                                    className={`w-full py-2 px-4 rounded-lg text-sm font-medium ${selectedGroup === group ? "bg-blue-400 text-white" : "bg-gray-200 text-gray-700"
-                                        } hover:bg-blue-500 transition duration-300 ease-in-out`}
+                                    className={`w-full py-2 px-4 rounded-lg text-sm font-semibold ${selectedGroup === group ? "bg-orange-400 text-white" : "bg-orange-200 text-black"
+                                        } hover:bg-orange-500 transition duration-300 ease-in-out`}
                                     onClick={() => setSelectedGroup(group)}
                                 >
                                     {group}
@@ -111,8 +118,8 @@ export default function NossaEquipe() {
                                     height={128} // Ajuste a altura da imagem conforme necessário
                                     className="mx-auto rounded-full mb-4"
                                 />
-                                <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
-                                <p className="text-gray-600">{member.role}</p>
+                                <h3 className="text-xl font-semibold text-orange-900">{member.name}</h3>
+                                <p className="text-orange-950">{member.role}</p>
                             </div>
                         </SwiperSlide>
                     ))}
