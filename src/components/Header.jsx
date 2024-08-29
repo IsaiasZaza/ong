@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow fixed mx-auto w-full z-50">
+    <header className="bg-white shadow mx-auto w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
         <div className="flex items-center">
           <Image

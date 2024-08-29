@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide, Pagi } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
 import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import Banner from "@/components/Banner";
 
 
 export default function NossaEquipe() {
@@ -48,13 +49,14 @@ export default function NossaEquipe() {
     const groups = Object.keys(teams);
 
     return (
-        <section className="py-12 bg-white">
+
+        <section className=" bg-gray-50">
+            <Banner />
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl font-extrabold text-gray-900">Nossa Equipe</h2>
                     <p className="text-lg text-gray-600">Conheça os profissionais que fazem a diferença.</p>
                 </div>
-
                 <div className="flex flex-col items-center mb-8">
                     <Swiper
                         navigation={true}
@@ -79,8 +81,8 @@ export default function NossaEquipe() {
                         {groups.map((group) => (
                             <SwiperSlide key={group}>
                                 <button
-                                    className={`w-full py-2 px-4 rounded-lg text-sm font-medium ${selectedGroup === group ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-700"
-                                        } hover:bg-blue-600 transition duration-300 ease-in-out`}
+                                    className={`w-full py-2 px-4 rounded-lg text-sm font-medium ${selectedGroup === group ? "bg-blue-400 text-white" : "bg-gray-200 text-gray-700"
+                                        } hover:bg-blue-500 transition duration-300 ease-in-out`}
                                     onClick={() => setSelectedGroup(group)}
                                 >
                                     {group}
@@ -117,5 +119,6 @@ export default function NossaEquipe() {
                 </Swiper>
             </div>
         </section>
+
     );
 }
