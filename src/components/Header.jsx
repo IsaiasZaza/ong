@@ -22,16 +22,16 @@ const Header = () => {
         <div className="hidden md:flex space-x-4">
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="/comoDoar" className="text-gray-800 hover:text-yellow-500">Como Doar</a></li>
-              <li><a href="#" className="text-gray-800 hover:text-yellow-500">Quem Somos</a></li>
-              <li><a href="#" className="text-gray-800 hover:text-yellow-500">Nossa História</a></li>
-              <li><a href="#" className="text-gray-800 hover:text-yellow-500">O Que Fazemos</a></li>
-              <li><a href="/nossa-equipe" className="text-gray-800 hover:text-yellow-500">Nossa Equipe</a></li>
+              <li><a href="/comoDoar" className="text-gray-800 hover:text-orange-500">Como Doar</a></li>
+              <li><a href="/quemSomos" className="text-gray-800 hover:text-orange-500">Quem Somos</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-orange-500">Nossa História</a></li>
+              <li><a href="#" className="text-gray-800 hover:text-orange-500">O Que Fazemos</a></li>
+              <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe</a></li>
             </ul>
           </nav>
         </div>
         <div className="hidden md:block">
-          <a href="#" className="bg-yellow-500 text-white px-4 py-16 rounded hover:bg-yellow-600">Doe Agora</a>
+          <a href="#" className="bg-orange-500 text-white px-4 py-16 rounded hover:bg-orange-600">Doe Agora</a>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={() => setIsOpen(!isOpen)} className="text-gray-800 hover:text-yellow-500">
