@@ -11,13 +11,16 @@ const Header = () => {
     <header className="fixed bg-white shadow mx-auto w-full z-50 mb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
         <div className="flex items-center">
-          <Image
-            src="/logo.png" // Substitua com o caminho do seu logo
-            alt="Logo Vaga Lume"
-            width={150}
-            height={100}
-            className="mr-3"
-          />
+          <a href="/">
+            <Image
+              src="/logo.png" // Substitua com o caminho do seu logo
+              alt="Logo Vaga Lume"
+              width={150}
+              height={100}
+              className="mr-3"
+            />
+          </a>
+
         </div>
         <div className="hidden md:flex space-x-4">
           <nav>
@@ -25,7 +28,7 @@ const Header = () => {
               <li><a href="/comoDoar" className="text-gray-800 hover:text-orange-500">Como Doar</a></li>
               <li><a href="/quemSomos" className="text-gray-800 hover:text-orange-500">Quem Somos</a></li>
               <li><a href="#" className="text-gray-800 hover:text-orange-500">Nossa História</a></li>
-              <li><a href="#" className="text-gray-800 hover:text-orange-500">O Que Fazemos</a></li>
+              <li><a href="/oQueFazemos" className="text-gray-800 hover:text-orange-500">O Que Fazemos</a></li>
               <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe</a></li>
             </ul>
           </nav>

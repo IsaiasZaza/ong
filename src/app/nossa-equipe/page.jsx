@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Swiper, SwiperSlide, Pagi } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
-import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import Banner from "@/components/Banner";
 
 
@@ -66,11 +66,11 @@ export default function NossaEquipe() {
                 </div>
                 <div className="flex flex-col items-center mb-8 mt-4">
                     <Swiper
-                        navigation={true}
+
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Navigation, Autoplay, Pagination]}
+                        modules={[Autoplay]}
                         className="mySwiper w-full bg-cover"
                         autoplay={{
                             delay: 2000,
