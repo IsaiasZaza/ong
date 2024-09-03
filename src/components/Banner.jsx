@@ -5,13 +5,13 @@ const Banner = () => {
         <section className="relative">
             <div className="relative bg-cover bg-center">
                 <Image
-                    src="/teste-vagalume.jpg" // Substitua pelo caminho real da imagem
+                    src="/NossaEquipe.jpg" // Substitua pelo caminho real da imagem
                     alt="Transferência Bancária"
                     width={1920}
                     height={1080}
                     className="w-full h-lvh object-cover"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center px-4">
+                <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-center px-4">
                     <h1 className="text-orange-50 text-4xl font-bold mb-4">
                         Precisamos de voce
                     </h1>

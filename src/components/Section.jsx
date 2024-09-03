@@ -9,7 +9,7 @@ const Section = () => {
           <h1 className="justify-center text-lg md:text-2xl font-bold mb-6 text-blue-50">"Amar e ser amado, cuidar de quem precisa e
             transformar vidas, essa é uma vida que vale a pena e que transborda o nosso coração de gratidão.”
           </h1>
-          <Image src="/teste.jpg" alt="Criança comendo" width={600} height={400} className="mb-6" />
+          <Image src="/crianca.jpg" alt="Criança comendo" width={600} height={400} className="mb-6" />
           <div className="bg-orange-700 p-6 shadow-2xl rounded-lg">
             <p className="text-xl md:text-2xl text-blue-50">
               O problema da fome é <span className="font-bold">urgente</span>. <br />
