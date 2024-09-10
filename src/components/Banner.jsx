@@ -2,28 +2,34 @@ import Image from "next/image";
 
 const Banner = () => {
     return (
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
-            <div
-                className="absolute inset-0 bg-cover bg-center bg-fixed"
-                style={{ backgroundImage: "url('/NossaEquipe.jpg')" }} // Caminho real da imagem
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-center px-4">
-                <h1 className="text-orange-50 text-4xl font-bold mb-4">
-                    Precisamos de você
-                </h1>
-                <p className="text-orange-50 text-lg">
-                    Conheça os profissionais que fazem a diferença.
-                </p>
-                <div className="flex gap-1">
-                    <p className="text-orange-50 text-lg">Nos ajude nessa missão</p>
+        <section className="relative h-screen flex items-center overflow-hidden lg:mt-16">
+            {/* Background image covering the entire section */}
+            <div className="absolute inset-0 w-full h-full">
+                <Image
+                    src="/perfil1.png" // Path to your image
+                    alt="Children smiling"
+                    layout="fill"
+                    objectFit="cover"
+                    className="object-cover"
+                />
+            </div>
+
+            {/* Overlay content on the left */}
+            <div className="relative z-10 w-full h-full flex items-center justify-start">
+                {/* Text on the left */}
+                <div className="bg-transparent text-left p-4 md:p-6 ml-4 md:ml-8">
+                    <h1 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-tight space-y-2 md:space-y-4">
+                        Transformamos vidas <br />
+                        oferecendo educação <br />
+                        integral e dignidade, <br />
+                        para as crianças da <br />
+                        região portuária do <br />
+                        Rio de Janeiro.
+                    </h1>
                 </div>
-                <button className="text-orange-50 text-lg cursor-pointer border-b border-w px-2 py-2 hover:text-orange-300">
-                    Junte-se!
-                </button>
             </div>
         </section>
-
-    )
+    );
 }
 
 export default Banner;
