@@ -17,7 +17,7 @@ const Section = () => {
 
       <div className="relative flex flex-col items-center justify-center p-10 text-center space-y-6 md:space-y-10">
         {/* Background com Opacidade */}
-        <div className="absolute inset-0 bg-[url('/proposito.jpg')] bg-fixed bg-cover opacity-80"></div>
+        <div className="absolute inset-0 bg-[url('/proposito.jpg')] bg-fixed bg-cover opacity-90"></div>
 
         {/* Conteúdo */}
         <h1 className="text-orange-600 text-2xl md:text-5xl font-bold relative">
