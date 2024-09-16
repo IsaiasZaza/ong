@@ -1,3 +1,4 @@
+import ActuationSection from "@/components/ActuationSection ";
 import Feito from "@/components/Feito";
 import NewsLetterForm from "@/components/NewsLetterForm";
 import Section from "@/components/Section";
@@ -7,6 +8,7 @@ export default function Home() {
   return (
     <main className="lg:py-1 py-28">
       <Section />
+      <ActuationSection />
       <Feito />
       <NewsLetterForm />
     </main>

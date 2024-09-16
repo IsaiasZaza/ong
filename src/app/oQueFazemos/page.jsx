@@ -70,7 +70,6 @@ const OQueFazemos = () => {
                 </h3>
                 <Missao />
             </div>
-            <Grid />
         </section>
 
     );

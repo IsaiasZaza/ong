@@ -7,12 +7,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
-import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import PartnersSection from './PartnersSection';
 
 const Footer = () => {
   return (
     <>
-     <Image className='mx-auto mt-16' src="/patriocinadores.png" width={1080} height={1080}></Image>
+      <PartnersSection />
       <footer class="bg-orange-400 text-white py-8">
         <div class="container mx-auto px-6">
           <div class=" flex flex-wrap justify-between">
