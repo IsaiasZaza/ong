@@ -31,6 +31,9 @@ const Header = () => {
               <li><a href="/oQueFazemos" className="text-gray-800 hover:text-orange-500">O Que Fazemos</a></li>
               <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe</a></li>
             </ul>
+            <div className='text-center '>
+              <p className='text-orange-500'>Transparencia</p>
+            </div>
           </nav>
         </div>
         <div className="hidden md:block">
@@ -54,6 +57,7 @@ const Header = () => {
               <li><a href="#" className="block px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">Doe Agora</a></li>
             </ul>
           </nav>
+
         </div>
       )}
     </header>

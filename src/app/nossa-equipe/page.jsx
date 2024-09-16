@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide, Pagi } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
 import { Autoplay } from 'swiper/modules';
-import Banner from "@/components/Banner";
+import BannerNossaEquipe from "@/components/BannerNossaEquipe";
 
 
 export default function NossaEquipe() {
@@ -59,7 +59,7 @@ export default function NossaEquipe() {
 
     return (
         <section className="">
-            <Banner />
+            <BannerNossaEquipe />
             <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 bg-orange-50 rounded-lg shadow-xl mt-6">
                 <div className="">
                     <h1 className="text-center text-3xl font-bold text-orange-900 py-4">Nossa Equipe</h1>

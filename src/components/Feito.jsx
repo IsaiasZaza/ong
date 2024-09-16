@@ -6,7 +6,7 @@ export default function Feito() {
       {/* Imagem de Fundo */}
       <div className="absolute inset-0">
         <Image 
-          src="/teste-vagalume.jpg"
+          src="/favela.png"
           alt="Background"
           layout="fill"
           objectFit="cover"

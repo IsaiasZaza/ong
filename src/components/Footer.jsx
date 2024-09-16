@@ -12,7 +12,7 @@ import { Navigation, Autoplay, Pagination } from 'swiper/modules';
 const Footer = () => {
   return (
     <>
-     <p className='text-center'>Patricionadores</p>
+     <Image className='mx-auto mt-16' src="/patriocinadores.png" width={1080} height={1080}></Image>
       <footer class="bg-orange-400 text-white py-8">
         <div class="container mx-auto px-6">
           <div class=" flex flex-wrap justify-between">

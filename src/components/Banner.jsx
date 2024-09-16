@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner = () => {
     return (
-        <section className="relative h-screen flex items-center overflow-hidden lg:mt-16">
+        <section className="relative h-screen flex items-center overflow-hidden">
             {/* Background image covering the entire section */}
             <div className="absolute inset-0 w-full h-full">
                 <Image
@@ -15,16 +15,12 @@ const Banner = () => {
             </div>
 
             {/* Overlay content on the left */}
-            <div className="relative z-10 w-full h-full flex items-center justify-start">
+            <div className="relative z-10 w-full h-full flex pt-40">
                 {/* Text on the left */}
-                <div className="bg-transparent text-left p-4 md:p-6 ml-4 md:ml-8">
-                    <h1 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-tight space-y-2 md:space-y-4">
-                        Transformamos vidas <br />
-                        oferecendo educação <br />
-                        integral e dignidade, <br />
-                        para as crianças da <br />
-                        região portuária do <br />
-                        Rio de Janeiro.
+                <div className="bg-transparent text-left p-6 ml-8">
+                    <h1 className="text-white text-3xl font-bold leading-tight w-1/3 mt-3">
+                    Transformamos vidas  oferecendo educação  integral e dignidade, 
+                    para as crianças da região  portuária do Rio de Janeiro.
                     </h1>
                 </div>
             </div>

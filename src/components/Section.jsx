@@ -15,28 +15,23 @@ const Section = () => {
     <section>
       <Banner />
 
-      <div className="relative flex flex-col items-center justify-center p-10 text-center space-y-6 md:space-y-10">
-        {/* Background com Opacidade */}
-        <div className="absolute inset-0 bg-[url('/proposito.jpg')] bg-fixed bg-cover opacity-90"></div>
-
-        {/* Conteúdo */}
-        <h1 className="text-orange-600 text-2xl md:text-5xl font-bold relative">
-          PROPÓSITO
-        </h1>
-        <p className="text-blue-50 text-lg md:text-3xl font-semibold relative">
-          Desenvolver indivíduos livres, produtivos, socialmente integrados
-        </p>
-        <p className="text-blue-50 text-lg md:text-3xl font-semibold relative">&</p>
-        <p className="text-blue-50 text-lg md:text-3xl font-semibold relative">
-          moralmente responsáveis.
-        </p>
-
-        <a
-          href="#"
-          className="bg-orange-500 text-white px-10 py-4 md:px-16 md:py-8 rounded-lg text-lg md:text-xl font-bold hover:bg-yellow-600 mt-10 md:mt-28 relative"
-        >
-          Nosso compromisso
-        </a>
+      <div className="relative flex justify-center items-center py-20">
+        <Image
+          width={1080}
+          height={1080}
+          src="/proposito.png" // Replace with the actual path
+          alt="Children playing"
+          className="w-full h-full object-cover absolute inset-0 -z-10"
+        />
+        <div className="relative bg-white bg-opacity-70 p-8 max-w-md text-center rounded-md shadow-lg">
+          <h2 className="text-2xl font-semibold mb-4">Propósito</h2>
+          <p className="text-lg">
+            Desenvolver indivíduos livres, produtivos, socialmente integrados e moralmente responsáveis.
+          </p>
+          <button className="mt-6 px-6 py-2 bg-orange-500 text-white rounded hover:bg-orange-600">
+            Nosso Compromisso
+          </button>
+        </div>
       </div>
     </section>
   );
