@@ -19,7 +19,7 @@ const Section = () => {
         <Image
           width={1080}
           height={1080}
-          src="/proposito.png" // Replace with the actual path
+          src="/banner-proposito.png" // Replace with the actual path
           alt="Children playing"
           className="w-full h-full object-cover absolute inset-0 -z-10"
         />
