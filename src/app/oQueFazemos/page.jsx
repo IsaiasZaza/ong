@@ -1,8 +1,6 @@
 "use client";
 
 import React from 'react';
-import Image from 'next/image';
-import Grid from '@/components/Grid';
 import Missao from '@/components/Missao';
 
 const OQueFazemos = () => {
@@ -70,7 +68,6 @@ const OQueFazemos = () => {
                 </h3>
                 <Missao />
             </div>
-            <Grid />
         </section>
 
     );
