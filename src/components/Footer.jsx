@@ -12,7 +12,7 @@ import PartnersSection from './PartnersSection';
 const Footer = () => {
   return (
     <>
-     <Image className='mx-auto mt-16' src="/patriocinadores.png" width={1080} height={1080} alt="Patrocinadores" />
+      <PartnersSection />
 
       <footer className="bg-orange-400 text-white py-8">
         <div className="container mx-auto px-6 pt-12">
@@ -30,7 +30,7 @@ const Footer = () => {
 
             <div className="w-full md:w-1/3">
               <h4 className="text-xl font-semibold mb-3">Onde Estamos</h4>
-              
+
               {/* Contêiner dos ícones com flex e espaçamento */}
               <div className="flex space-x-4 mt-4 justify-center">
                 <a href="" aria-label="Instagram">
