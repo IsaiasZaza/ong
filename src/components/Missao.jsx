@@ -33,7 +33,7 @@ export default function Missao() {
   ];
 
   return (
-    <div className="bg-white py-0">
+    <div className="bg-white py-0 font-sans">
       <div className="max-w-7xl lg:px-0">
         {features.map((feature) => (
           <div key={feature.id} className="flex flex-col md:flex-row mb-12">

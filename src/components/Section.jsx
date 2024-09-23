@@ -15,7 +15,7 @@ const Section = () => {
     <section>
       <Banner />
 
-      <div className="relative flex justify-center items-center py-20">
+      <div className="relative flex justify-center items-center py-20 font-sans">
         <Image
           width={1080}
           height={1080}

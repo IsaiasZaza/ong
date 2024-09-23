@@ -4,7 +4,7 @@ export default function Feito() {
   return (
     <>
       {/* Top Section */}
-      <div className="bg-orange-500 py-16 px-6 lg:px-24 text-center relative z-10">
+      <div className="bg-orange-500 py-16 px-6 lg:px-24 text-center relative z-10 font-sans">
         {/* Title */}
         <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">O que fazemos</h2>
 
