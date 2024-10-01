@@ -21,9 +21,9 @@ export default function comoDoar() {
           </div>
 
         </div>
-        <div className='bg-sky-400 rounded-br-full'>
+        <div className='bg-no-repeat' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
           <div className='flex container mx-auto'>
-            <Image className='rounded-xl' width={150} height={150} src="/rounded.png"></Image>
+            <Image className='py-2 relative' width={180} height={100} src="/rounded.png"></Image>
             <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Como Doar</p>
           </div>
         </div>
