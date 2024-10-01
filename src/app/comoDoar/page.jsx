@@ -1,5 +1,8 @@
 "use client"
 
+import CompanySection from '@/components/CompanySection';
+import DonationOptions from '@/components/DonationOptions';
+import DonationSection from '@/components/DonationSection';
 import Image from 'next/image';
 
 
@@ -18,11 +21,15 @@ export default function comoDoar() {
           </div>
 
         </div>
-        <div className='flex container mx-auto'>
-            <Image className='rounded-full' width={150} height={150} src="/rounded.png"></Image>
-            <p>Como Doar</p>
+        <div className='bg-sky-400 rounded-br-full'>
+          <div className='flex container mx-auto'>
+            <Image className='rounded-xl' width={150} height={150} src="/rounded.png"></Image>
+            <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Como Doar</p>
+          </div>
         </div>
-        
+        <DonationOptions />
+        <DonationSection />
+        <CompanySection />
       </main>
     </>
   )
