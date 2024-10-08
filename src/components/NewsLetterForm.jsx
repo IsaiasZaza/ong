@@ -22,12 +22,12 @@ export default function NewsLetterForm() {
                 body: JSON.stringify(form),
             });
 
-            if (res.ok) { // Verifique se a resposta é bem-sucedida
+            if (res.ok) {
                 setStatus('Mensagem enviada com sucesso!');
                 setForm({ name: '', email: '', telefone: '' });
             } else {
                 const data = await res.json();
-                setStatus(data.message || 'Erro ao enviar a mensagem.'); // Corrija a chave do status
+                setStatus(data.message || 'Erro ao enviar a mensagem.');
             }
         } catch (error) {
             console.error(error);
@@ -40,7 +40,7 @@ export default function NewsLetterForm() {
             <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
                 <h2 className="text-3xl font-semibold mb-4 text-blue-950">Newsletter Gamboa Ação</h2>
                 <p className="text-blue-900">
-                Cadastre-se aqui e receba todas as novidades da Gamboa Ação 
+                    Cadastre-se aqui e receba todas as novidades da Gamboa Ação
                 </p>
             </div>
 
