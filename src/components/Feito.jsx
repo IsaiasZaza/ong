@@ -1,5 +1,13 @@
-import React from "react";
-import Image from "next/image";
+"use client";
+
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import Image from 'next/image';
 
 const Feito = () => {
   return (

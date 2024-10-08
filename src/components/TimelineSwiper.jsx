@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import Image from 'next/image';
 
 const timelineData = [
     {
@@ -80,13 +81,13 @@ export default function TimelineSwiper() {
                 <Swiper
                     spaceBetween={20}
                     slidesPerView={1}
-                    loop={true} 
+                    loop={true}
                     pagination={{ clickable: true }}
                     modules={[Navigation, Autoplay]}
                     autoplay={{
                         delay: 2000,
                         disableOnInteraction: false,
-                      }}
+                    }}
                     breakpoints={{
                         640: { slidesPerView: 1 }, // Telefones
                         768: { slidesPerView: 2 }, // Tablets

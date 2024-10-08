@@ -38,7 +38,7 @@ const Header = () => {
           </nav>
         </div>
         <div className="hidden md:block">
-          <a href="#" className="bg-orange-500 text-white px-4 py-16 rounded hover:bg-orange-600">Doe Agora</a>
+          <a href="/comoDoar" className="bg-orange-500 text-white px-4 py-16 rounded hover:bg-orange-600">Doe Agora</a>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={() => setIsOpen(!isOpen)} className="text-gray-800 hover:text-yellow-500">

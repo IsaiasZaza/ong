@@ -22,11 +22,11 @@ export default function oQueFazemos() {
             <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>O que fazemos</p>
           </div>
         </div>
-        <Cards> </Cards>
-        <ComoAtuamos> </ComoAtuamos>
-        <Atuacao> </Atuacao>
-        <NossasAtividades> </NossasAtividades>
-        <Impacto> </Impacto>
+        <Cards />
+        <ComoAtuamos />
+        <Atuacao />
+        <NossasAtividades />
+        <Impacto />
       </main>
     </>
   )
