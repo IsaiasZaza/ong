@@ -1,69 +1,71 @@
 "use client";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation } from "swiper";
 
-// Ativar módulos Swiper
-SwiperCore.use([Navigation]);
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import { Navigation, Autoplay, Pagination } from 'swiper/modules';
 
 const timelineData = [
     {
         year: "2014",
-        image: "/path/to/image2014.png", // Coloque aqui o caminho correto das imagens
-        text: "Gabriela encontra duas crianças pedindo dinheiro na Praça da Harmonia e resolve levá-las para lanchar..."
+        image: "/data1.png", // Coloque aqui o caminho correto das imagens
+        text: "Gabriela encontra duas crianças pedindo dinheiro na Praça da Harmonia e resolve levá-las para lanchar. Durante o lanche conhece a história de cada uma e promete voltar na semana seguinte. Ao retornar ao bairro, encontra mais crianças, levadas pelas meninas que havia conhecido."
     },
     {
         year: "2014-2015",
-        image: "/path/to/image2014_2015.png",
-        text: "Gabriela começa a encontrar com as crianças semanalmente e mesmo sem ter qualquer formação..."
+        image: "/data2.png",
+        text: "Gabriela começa a encontrar com as crianças semanalmente e mesmo sem ter qualquer formação voltada para a infância, promove atividades infantis na Praça da Harmonia (dança, leitura e brincadeiras) até conseguir um local emprestado e convidar pessoas para ajudar a mudar a história daquelas crianças."
     },
     {
         year: "2015-2016",
-        image: "/path/to/image2015_2016.png",
-        text: "Gabriela pensa em desistir, promove um Natal Solidário para se despedir das crianças e após enviar..."
+        image: "/data3.png",
+        text: "Gabriela pensa em desistir, promove um Natal Solidário para se despedir das crianças e após enviar um e-mail de agradecimento para um dos apoiadores do evento, recebe o pedido para enviar um projeto. Após o envio do documento recebe a notícia de que o projeto havia sido inscrito para concorrer com iniciativas da África e América Latina e havia conquistado o 1 lugar. Com o prêmio recebido resolve fundar a Gamboa Ação."
     },
     {
         year: "2017-2018",
-        image: "/path/to/image2017_2018.png",
-        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+        image: "/data4.png",
+        text: "A Gamboa Ação conquista a sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças que foram se juntado às 2 meninas que conheceram a tia Gabriela na Praça da Harmonia. A Gamboa Ação recebe apoio de voluntários, e inicia a parceria com o Instituto da Criança para desenvolver a instituição. Um fato importante: ao longo desse período todas as crianças foram matriculadas na escola."
     },
     {
-        year: "2017-2018",
-        image: "/path/to/image2017_2018.png",
-        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+        year: "2019",
+        image: "/data5.png",
+        text: "A Gamboa Ação, se estrutura administrativamente, recebe certificação em transparência e boas práticas, chega a 60 crianças atendidas, passa por aceleração pelo Instituto Ekloos, conquista novos apoiadores e a tão sonhada casa nova. A nova sede da Gamboa Ação é a realização de um sonho que oportunizará melhor interação, aprendizado e desenvolvimento das crianças."
     },
     {
-        year: "2017-2018",
-        image: "/path/to/image2017_2018.png",
-        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+        year: "2020-2021",
+        image: "/data6.png",
+        text: "Covid-19: no período da pandemia a Gamboa Ação atua na campanha de conscientização sobre os cuidados especiais e no fornecimento de cestas básicas, kits higiene, máscaras e cobertores para o frio, para as famílias da região. Em 2021, a Gamboa Ação é premiada pela Lei Aldir Blanc e realiza o seu primeiro musical – Paz, Justiça e Alegria. Conquista a aprovação de 3 projetos na Lei de Cultura do Rio e captação de recursos para 2022."
     },
     {
-        year: "2017-2018",
-        image: "/path/to/image2017_2018.png",
-        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+        year: "2022",
+        image: "/data7.png",
+        text: "Com o patrocínio dos projetos da Lei de Incentivo à Cultura - Lei do ISS, a Gamboa Ação retoma a operação diária das atividades desde a pandemia do COVID-19. Com equipe contratada e alimentação nutritiva e saudável, servida diariamente, foi possível desenvolver um trabalho consistente e com grandes resultados. Projetos desenvolvidos: Viva o Extraordinário, Arte Tech e Cozinha Criativa."
     },
     {
-        year: "2017-2018",
-        image: "/path/to/image2017_2018.png",
-        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+        year: "2023",
+        image: "/data8.png",
+        text: "A Gamboa Ação implanta de maneira estruturada o programa Saúde e Higiene, que consiste em oferecer alimentação saudável diariamente e dar acesso a hábitos de higiene pessoal. Realização da segunda edição do Projeto Arte Tech. Celebração de datas importantes com grandes eventos: taça da harmonia, dia mundial do meio ambiente, dia das crianças, dia da alfabetização e o natal solidário."
     },
     {
-        year: "2017-2018",
-        image: "/path/to/image2017_2018.png",
-        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+        year: "2024",
+        image: "/data9.png",
+        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças.",
+        link: "https://gamboaacao.org"
     },
-    
-    // Adicione mais anos e textos conforme necessário
 ];
 
 export default function TimelineSwiper() {
     return (
         <div className="relative py-8 bg-orange-500">
-            {/* Adiciona a curva na parte inferior do fundo */}
+            {/* Curva na parte inferior */}
             <div className="absolute bottom-0 left-0 right-0">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1440 220"
-                    className="w-full h-[500px]"
+                    className="w-full h-[300px]"  // altura ajustada para dispositivos menores
                 >
                     <path
                         fill="#f4f4f4"
@@ -76,34 +78,54 @@ export default function TimelineSwiper() {
             {/* Swiper Container */}
             <div className="container mx-auto px-4 relative z-10">
                 <Swiper
-                    spaceBetween={30}
-                    slidesPerView={3}
+                    spaceBetween={20}
+                    slidesPerView={1}
+                    loop={true} 
                     pagination={{ clickable: true }}
+                    modules={[Navigation, Autoplay]}
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                      }}
                     breakpoints={{
-                        640: { slidesPerView: 1 },
-                        768: { slidesPerView: 2 },
-                        1024: { slidesPerView: 3 }
+                        640: { slidesPerView: 1 }, // Telefones
+                        768: { slidesPerView: 2 }, // Tablets
+                        1024: { slidesPerView: 3 }, // Laptops e desktops
                     }}
                 >
                     {timelineData.map((item, index) => (
                         <SwiperSlide
                             key={index}
                             className="bg-white p-4 rounded-lg shadow-lg flex flex-col justify-between"
-                            style={{ minHeight: "550px" }}
+                            style={{ minHeight: "600px" }} // Ajuste da altura mínima
                         >
                             {/* Imagem */}
                             <div
-                                className="h-40 w-full bg-cover bg-center rounded-lg mb-4"
+                                className="h-72 w-full bg-cover bg-center rounded-lg mb-4"
                                 style={{ backgroundImage: `url(${item.image})` }}
                             ></div>
 
                             {/* Ano */}
-                            <h3 className="text-2xl font-bold mb-2 text-orange-500 px-4">{item.year}</h3>
+                            <h3 className="text-xl md:text-2xl font-bold mb-2 text-orange-500 px-2 md:px-4">
+                                {item.year}
+                            </h3>
 
                             {/* Texto */}
-                            <p className="text-base font-semibold overflow-hidden text-ellipsis flex-grow px-4">
+                            <p className="text-sm md:text-base font-semibold overflow-hidden flex-grow px-2 md:px-4">
                                 {item.text}
                             </p>
+
+                            {/* Link (caso exista) */}
+                            {item.link && (
+                                <a
+                                    href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-500 underline mt-4"
+                                >
+                                    Saiba mais
+                                </a>
+                            )}
                         </SwiperSlide>
                     ))}
                 </Swiper>

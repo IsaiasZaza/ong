@@ -30,6 +30,7 @@ const Header = () => {
               <li><a href="#" className="text-gray-800 hover:text-orange-500">Nossa História</a></li>
               <li><a href="/oQueFazemos" className="text-gray-800 hover:text-orange-500">O Que Fazemos</a></li>
               <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe</a></li>
+              <li><a href="/voluntariado" className="text-gray-800 hover:text-orange-500">Voluntariado</a></li>
             </ul>
             <div className='text-center '>
               <p className='text-orange-500'>Transparencia</p>
