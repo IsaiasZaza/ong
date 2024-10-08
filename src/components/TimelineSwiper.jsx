@@ -1,36 +1,58 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination } from "swiper";
+import SwiperCore, { Navigation } from "swiper";
 
 // Ativar módulos Swiper
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation]);
 
 const timelineData = [
     {
-        year: "2019",
-        image: "/1.png",
-        text: "A Gamboa Ação, se estrutura administrativamente, recebe certificação em transparência e boas práticas, chega a 60 crianças atendidas, passa por aceleração pelo Instituto Ekloos, conquista novos apoiadores e a tão sonhada casa nova."
+        year: "2014",
+        image: "/path/to/image2014.png", // Coloque aqui o caminho correto das imagens
+        text: "Gabriela encontra duas crianças pedindo dinheiro na Praça da Harmonia e resolve levá-las para lanchar..."
     },
     {
-        year: "2020-2021",
-        image: "/2.png",
-        text: "Covid-19: no período da pandemia a Gamboa Ação atua na campanha de conscientização sobre os cuidados essenciais e no fornecimento de cestas básicas, kits higiene, máscaras e cobertores para o frio, para as famílias da região."
+        year: "2014-2015",
+        image: "/path/to/image2014_2015.png",
+        text: "Gabriela começa a encontrar com as crianças semanalmente e mesmo sem ter qualquer formação..."
     },
     {
-        year: "2022",
-        image: "/3.png",
-        text: "Com o patrocínio dos projetos da Lei de Incentivo à Cultura - Lei do ISS, a Gamboa Ação retoma as atividades presenciais das atividades pedagógicas, além de trabalho em grande escala com voluntários."
+        year: "2015-2016",
+        image: "/path/to/image2015_2016.png",
+        text: "Gabriela pensa em desistir, promove um Natal Solidário para se despedir das crianças e após enviar..."
     },
     {
-        year: "2023",
-        image: "/4.png",
-        text: "A Gamboa Ação implanta de maneira estruturada o programa Saúde e Higiene, que consiste em oferecer alimentação saudável diariamente e dar acesso a hábitos de higiene pessoal."
+        year: "2017-2018",
+        image: "/path/to/image2017_2018.png",
+        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
     },
     {
-        year: "2024",
-        image: "/5.png",
-        text: "A Gamboa Ação mudou para uma nova sede, e continua os programas de saúde e alimentação."
-    }
+        year: "2017-2018",
+        image: "/path/to/image2017_2018.png",
+        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+    },
+    {
+        year: "2017-2018",
+        image: "/path/to/image2017_2018.png",
+        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+    },
+    {
+        year: "2017-2018",
+        image: "/path/to/image2017_2018.png",
+        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+    },
+    {
+        year: "2017-2018",
+        image: "/path/to/image2017_2018.png",
+        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+    },
+    {
+        year: "2017-2018",
+        image: "/path/to/image2017_2018.png",
+        text: "A Gamboa Ação conquista sua sede na Rua Sacadura Cabral e começa a atender todas as 50 crianças..."
+    },
+    
+    // Adicione mais anos e textos conforme necessário
 ];
 
 export default function TimelineSwiper() {
