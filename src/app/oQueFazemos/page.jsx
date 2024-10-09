@@ -13,7 +13,7 @@ export default function oQueFazemos() {
   return (
     <>
       <main>
-        <div className="relative bg-gray-100 h-96 bg-no-repeat flex items-center justify-between p-16" style={{ backgroundImage: "url('/banner-fazemos.png')", backgroundSize: 'cover' }}>
+        <div className="relative h-[600px] bg-gray-100 bg-no-repeat flex items-center justify-between p-16" style={{ backgroundImage: "url('/banner-fazemos.png')", backgroundSize: 'cover' }}>
 
         </div>
         <div className='bg-no-repeat' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>

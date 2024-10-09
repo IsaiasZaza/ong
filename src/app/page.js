@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="lg:py-1 py-28">
+    <main>
       <Section />
       <ActuationSection />
       <Feito />
