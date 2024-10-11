@@ -1,6 +1,6 @@
 import { IoLogoWhatsapp } from "react-icons/io";
 
-const VoluntariadoCorporativo = () => {
+export default function VoluntariadoCorporativo() {
     return (
         <>
             <div className="min-h-screen flex justify-center py-12 px-4 md:px-8">
@@ -61,4 +61,3 @@ const VoluntariadoCorporativo = () => {
     )
 }
 
-export default VoluntariadoCorporativo;
