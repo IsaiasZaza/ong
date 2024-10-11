@@ -11,7 +11,7 @@ const VoluntariadoSection = () => {
                         {/* Imagem da esquerda */}
                         <div className="md:w-1/2">
                             <img
-                                src="como-atuamos1.png"
+                                src="A.png"
                                 alt="Crianças participando de atividades"
                                 className="shadow-lg object-cover w-full h-64 md:h-96 rounded-lg" // Adiciona bordas arredondadas
                             />
@@ -23,10 +23,10 @@ const VoluntariadoSection = () => {
                                 Voluntariado mão na massa, tradicional:
                             </h2>
                             <p className="leading-relaxed text-gray-700 px-6">
-                                A proposta pedagógica que perpassa todas as áreas foi inspirada tanto na linha construtivista, quanto na pedagogia Waldorf, mas não se limita a essas duas teorias. As atividades realizadas têm como objetivo instigar a curiosidade, aprimorar os relacionamentos interpessoais e desenvolver a capacidade de encontrar soluções perante os desafios.
+                                trabalhos pontuais e atividades durante nossos eventos comemorativos. Voluntários "mão na massa" ajudam diretamente nas atividades com as crianças, na logística de eventos e muito mais!
                             </p>
-                            <p className="leading-relaxed text-gray-700 px-6">
-                                Levando em consideração e respeitando o meio em que as crianças e os jovens vivem, a Gamboa Ação busca abrir oportunidades e novos horizontes, capacitando-os a fazerem escolhas conscientes e terem visão de futuro. Nesse sentido, o erro é enfatizado não como um tropeço, mas como um trampolim na rota da aprendizagem.
+                            <p className="leading-relaxed text-gray-700 px-6 font-bold text-lg">
+                                Seja parte das ações no campo!
                             </p>
                         </div>
                     </div>
@@ -39,17 +39,17 @@ const VoluntariadoSection = () => {
                                 Voluntariado por competência:
                             </h2>
                             <p className="leading-relaxed text-gray-700 px-6">
-                                A Gamboa Ação entende que o desenvolvimento de cada ser humano é diferente. Portanto os colaboradores são orientados a considerar as diferentes características de cada indivíduo.
+                                se você tem conhecimento específico em áreas como medicina, serviço social, nutrição, psicologia, e outras, pode contribuir diretamente com o desenvolvimento de nossas crianças e adolescentes. Seu conhecimento pode transformar vidas!
                             </p>
-                            <p className="leading-relaxed text-gray-700 px-6 pb-10">
-                                Além de conduzir as crianças para um pensamento livre e autônomo, deseja-se colaborar para prepará-las para encarar a vida com responsabilidade e capacidade de questionamento. Para tanto, a Gamboa Ação busca estimular as crianças e os jovens a saberem escutar o próximo e se comunicar claramente para expressar seus pensamentos.
+                            <p className="leading-relaxed text-gray-700 px-6 pb-10 font-bold text-lg">
+                                Use suas habilidades e expertise para fazer a diferença!
                             </p>
                         </div>
 
                         {/* Imagem à direita */}
                         <div className="md:w-1/2">
                             <img
-                                src="como-atuamos2.png"
+                                src="B.png"
                                 alt="Criança jogando xadrez"
                                 className="shadow-lg object-cover w-full h-64 md:h-96 rounded-lg" // Adiciona bordas arredondadas
                             />
@@ -61,7 +61,7 @@ const VoluntariadoSection = () => {
                         {/* Imagem da esquerda */}
                         <div className="md:w-1/2">
                             <img
-                                src="como-atuamos3.png"
+                                src="C.png"
                                 alt="Voluntário com crianças"
                                 className="shadow-lg object-cover w-full h-64 md:h-96 rounded-lg"
                             />
@@ -73,10 +73,9 @@ const VoluntariadoSection = () => {
                                 Voluntariado Pro Bono:
                             </h2>
                             <p className="leading-relaxed text-gray-700 px-6">
-                                Se você ou sua empresa tem especializações que podem apoiar nossa gestão (gerenciamento de projetos, contabilidade, advocacia, etc.), o seu esforço voluntário pro bono pode nos ajudar a aumentar nossa eficiência e alcançar novos resultados.
-                            </p>
-                            <p className="leading-relaxed text-gray-700 px-6">
-                                Ajude a fortalecer nossa operação!
+                                se você ou sua empresa têm especializações que podem apoiar nossa gestão (gerenciamento de projetos, contabilidade, advocacia, etc.), oferecer sua consultoria pro bono pode nos ajudar a aumentar nossa eficiência e governança.                            </p>
+                            <p className="leading-relaxed text-gray-700 px-6 font-bold text-lg">
+                                Ajude a fortalecer nossa operação!                            
                             </p>
                         </div>
                     </div>
