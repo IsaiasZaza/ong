@@ -97,7 +97,9 @@ export default function voluntariado() {
           </div>
         </section>
         <VoluntariadoSection />
-        <VoluntariadoCorporativo />
+        <div>
+          <VoluntariadoCorporativo />
+        </div>
         <VideoSection />
         <Donation />
       </main>
