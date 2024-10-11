@@ -18,7 +18,7 @@ const Impacto = () => {
           {/* Estatísticas sobre a imagem */}
           <div className="absolute inset-0 flex flex-col md:flex-row justify-center items-end bg-black bg-opacity-50 text-white py-10 ">
 
-            <div className='flex flex-row '>
+            <div className='flex flex-col md:flex-row  '>
             <div className="text-center md:w-1/4 p-4 border-r-4 border-gray bg-white">
                     <h3 className="text-3xl font-bold text-orange-500">+300</h3>
                     <p className='text-black font-semibold'>Assistidos diretamente ao longo de 8 anos</p>
