@@ -3,9 +3,10 @@
 import Image from 'next/image';
 import React from 'react';
 import VoluntariadoSection from '@/components/VoluntariadoSection';
-import VoluntariadoCorporativo from '@/components/VoluntariadoCorporativo';
+
 import VideoSection from '@/components/VideoSection';
 import Donation from '@/components/Donation';
+import Corporativo from '@/components/Corporativo';
 
 export default function voluntariado() {
   return (
@@ -98,7 +99,7 @@ export default function voluntariado() {
         </section>
         <VoluntariadoSection />
         <div>
-          <VoluntariadoCorporativo />
+          <Corporativo />
         </div>
         <VideoSection />
         <Donation />
