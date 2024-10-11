@@ -3,6 +3,9 @@
 import Image from 'next/image';
 import React from 'react';
 import VoluntariadoSection from '@/components/VoluntariadoSection';
+import VoluntariadoCorporativo from '@/components/VoluntariadoCorporativo';
+import VideoSection from '@/components/VideoSection';
+import Donation from '@/components/Donation';
 
 export default function voluntariado() {
   return (
@@ -25,15 +28,21 @@ export default function voluntariado() {
           <div className="bg-white">
             <div className="mx-auto text-center">
               {/* Voluntariado Header */}
-              <div className='bg-no-repeat' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
+              <div className='bg-no-repeat lg:block hidden' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
                 <div className='flex container mx-auto'>
                   <Image className='py-2 relative' width={180} height={100} src="/rounded.png"></Image>
                   <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Voluntariado</p>
                 </div>
               </div>
+              <div className='bg-blue-500 lg:hidden'>
+                <div className='flex container mx-auto'>
+                  <Image className='py-2 relative mr-4' width={80} height={100} src="/rounded.png"></Image>
+                  <p className='lg:text-3xl py-8 text-white text-2xl'>Voluntariado</p>
+                </div>
+              </div>
 
               {/* Title and Description */}
-              <h3 className="text-blue-400 text-2xl mb-4">
+              <h3 className="text-blue-400 text-2xl mb-4 mt-4">
                 Seja parte da transformação na Gamboa Ação.
               </h3>
               <p className="text-orange-500 text-xl mb-8">
@@ -88,6 +97,9 @@ export default function voluntariado() {
           </div>
         </section>
         <VoluntariadoSection />
+        <VoluntariadoCorporativo />
+        <VideoSection />
+        <Donation />
       </main>
     </>
   )
