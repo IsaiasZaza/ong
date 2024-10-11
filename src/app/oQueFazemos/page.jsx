@@ -16,10 +16,16 @@ export default function oQueFazemos() {
         <div className="relative h-[400px] bg-gray-100 bg-no-repeat flex items-center justify-between p-16" style={{ backgroundImage: "url('/banner-fazemos.png')", backgroundSize: 'cover' }}>
 
         </div>
-        <div className='bg-no-repeat' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
+        <div className='bg-no-repeat lg:block' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
           <div className='flex container mx-auto'>
             <Image className='py-2 relative' width={180} height={100} src="/rounded.png"></Image>
             <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>O que fazemos</p>
+          </div>
+        </div>
+        <div className='bg-blue-400 lg:hidden'>
+          <div className='flex container mx-auto'>
+            <Image className='py-2 relative mr-4' width={80} height={100} src="/rounded.png"></Image>
+            <p className='lg:text-3xl py-8 text-white text-2xl'>Voluntariado</p>
           </div>
         </div>
         <Cards />

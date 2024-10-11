@@ -1,7 +1,7 @@
 // components/VisaoEscopoValores.js
 export default function VisaoEscopoValores() {
     return (
-        <div className="bg-blue-50">
+        <div className="bg-blue-50 px-4">
             <div className="bg-blue-50 py-10 max-w-5xl mx-auto">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Visão */}

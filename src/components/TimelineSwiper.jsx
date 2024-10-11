@@ -66,7 +66,7 @@ export default function TimelineSwiper() {
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1440 220"
-                    className="w-full h-[300px]"  // altura ajustada para dispositivos menores
+                    className="w-full h-[300px]"
                 >
                     <path
                         fill="#f4f4f4"
@@ -98,16 +98,16 @@ export default function TimelineSwiper() {
                         <SwiperSlide
                             key={index}
                             className="bg-white p-4 rounded-lg shadow-lg flex flex-col justify-between"
-                            style={{ minHeight: "600px" }} // Ajuste da altura mínima
+                            style={{ minHeight: "500px" }} // Ajuste da altura mínima
                         >
                             {/* Imagem */}
                             <div
-                                className="h-72 w-full bg-cover bg-center rounded-lg mb-4"
+                                className="h-56 w-full bg-cover bg-center rounded-lg mb-4"
                                 style={{ backgroundImage: `url(${item.image})` }}
                             ></div>
 
                             {/* Ano */}
-                            <h3 className="text-xl md:text-2xl font-bold mb-2 text-orange-500 px-2 md:px-4">
+                            <h3 className="text-lg md:text-xl font-bold mb-2 text-orange-500 px-2 md:px-4">
                                 {item.year}
                             </h3>
 
