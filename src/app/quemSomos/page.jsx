@@ -22,17 +22,9 @@ export default function NossaEquipe() {
                         backgroundSize: "cover",
                     }}
                 >
-                    <div className="flex container mx-auto items-center">
-                        <Image
-                            className="py-2 relative"
-                            width={180}
-                            height={100}
-                            src="/rounded.png"
-                            alt="Logo"
-                        />
-                        <p className="lg:text-3xl mt-14 ml-8 text-white text-xl">
-                            Quem Somos
-                        </p>
+                    <div className='flex container mx-auto'>
+                        <Image className='py-2 relative' width={180} height={100} src="/rounded.png"></Image>
+                        <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Quem Somos</p>
                     </div>
                 </div>
                 {/* Mobile */}

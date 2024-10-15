@@ -14,7 +14,7 @@ export default function NossaEquipe() {
 
     const teams = {
         "Administrativo": [
-            { name: "Caio Ignácio", role: "Administratio Financeiro", Image: "/Matheus-Lucas.png" },
+            { name: "Caio Ignácio", role: "Administratio Financeiro", Image: "/caio.png" },
             { name: "Matheus Lucas", role: "Apoio Administrativo", Image: "/Matheus-Lucas.png" },
         ],
         "Comunicação e Marketing": [

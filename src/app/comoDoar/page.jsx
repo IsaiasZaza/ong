@@ -20,23 +20,6 @@ export default function comoDoar() {
             </p>
           </div>
         </div>
-
-        {/* Desktop Header */}
-        <div className='bg-no-repeat lg:block hidden' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
-          <div className='flex container mx-auto items-center py-4'>
-            <Image className='relative' width={180} height={100} src="/rounded.png" alt="Rounded logo" />
-            <p className='lg:text-3xl mt-4 ml-8 text-white text-xl'>Como Doar</p>
-          </div>
-        </div>
-
-        {/* Mobile Header */}
-        <div className='bg-blue-400 lg:hidden'>
-          <div className='flex container mx-auto items-center py-4 px-4'>
-            <Image className='relative mr-4' width={80} height={100} src="/rounded.png" alt="Rounded logo" />
-            <p className='text-2xl py-2 text-white'>Como Doar</p>
-          </div>
-        </div>
-
         {/* Components */}
         <DonationOptions />
         <DonationSection />
