@@ -7,40 +7,16 @@ export default function NossaEquipe() {
     return (
         <section className="">
             <div
-                className="relative bg-gray-100 bg-no-repeat pt-96"
+                className="relative bg-gray-100 bg-no-repeat h-[550px]"
                 style={{
-                    backgroundImage: "url('/quemSomos.png')",
+                    backgroundImage: "url('/banner-transparencia.png')",
                     backgroundSize: "cover",
                 }}
-            ></div>
-            <div className="">
-                {/* Desktop */}
-                <div
-                    className="bg-no-repeat lg:block hidden"
-                    style={{
-                        backgroundImage: "url('/bg.png')",
-                        backgroundSize: "cover",
-                    }}
-                >
-                    <div className='flex container mx-auto'>
-                        <Image className='py-2 relative' width={180} height={100} src="/rounded.png"></Image>
-                        <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Quem Somos</p>
-                    </div>
-                </div>
-                {/* Mobile */}
-                <div className="bg-blue-400 lg:hidden ">
-                    <div className="flex container mx-auto px-4 items-center">
-                        <Image
-                            className="py-2 relative mr-4"
-                            width={80}
-                            height={100}
-                            src="/rounded.png"
-                            alt="Logo"
-                        />
-                        <p className="lg:text-3xl py-8 text-white text-2xl">
-                            Quem Somos
-                        </p>
-                    </div>
+            >
+                <div className="relative z-10 ml-4 sm:ml-8 lg:ml-40">
+                    <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg mt-[450px]">
+                        O que fazemos
+                    </button>
                 </div>
             </div>
 

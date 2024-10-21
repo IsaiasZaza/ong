@@ -14,20 +14,13 @@ export default function oQueFazemos() {
     <>
       <main>
         <div className="relative h-[500px] bg-gray-100 bg-no-repeat flex items-center justify-between p-16" style={{ backgroundImage: "url('/banner-fazemos.png')", backgroundSize: 'cover' }}>
+          <div className="relative z-10 ml-4 sm:ml-8 lg:ml-24 lg:mt-96 mt-60">
+            <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg">
+              O que fazemos
+            </button>
+          </div>
+        </div>
 
-        </div>
-        <div className='bg-no-repeat lg:block hidden' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
-          <div className='flex container mx-auto'>
-            <Image className='py-2 relative' width={180} height={100} src="/fz.png"></Image>
-            <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>O que fazemos</p>
-          </div>
-        </div>
-        <div className='bg-blue-400 lg:hidden px-4'>
-          <div className='flex container mx-auto'>
-            <Image className='py-2 relative mr-4' width={80} height={100} src="/fz.png"></Image>
-            <p className='lg:text-3xl py-8 text-white text-2xl'>Voluntariado</p>
-          </div>
-        </div>
         <Cards />
         <ComoAtuamos />
         <Atuacao />

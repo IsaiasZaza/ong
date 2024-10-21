@@ -22,26 +22,16 @@ export default function voluntariado() {
               fill
               className="object-cover grayscale"
             />
-            <div className="absolute inset-0 bg-black opacity-30" />
+            <div className="relative z-10 ml-4 sm:ml-8 lg:ml-40">
+              <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg mt-[450px]">
+                Voluntariado
+              </button>
+            </div>
           </div>
 
           {/* Content Section */}
           <div className="bg-white">
             <div className="mx-auto text-center">
-              {/* Voluntariado Header */}
-              <div className='bg-no-repeat lg:block hidden' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
-                <div className='flex container mx-auto'>
-                  <Image className='py-2 relative' width={180} height={100} src="/cad.png"></Image>
-                  <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Voluntariado</p>
-                </div>
-              </div>
-              <div className='bg-blue-400 lg:hidden px-4'>
-                <div className='flex container mx-auto'>
-                  <Image className='py-2 relative mr-4' width={80} height={100} src="/cad.png"></Image>
-                  <p className='lg:text-3xl py-8 text-white text-2xl'>Voluntariado</p>
-                </div>
-              </div>
-
               {/* Title and Description */}
               <h3 className="text-blue-400 text-2xl mb-4 mt-4">
                 Seja parte da transformação na Gamboa Ação.

@@ -11,19 +11,11 @@ export default function oQueFazemos() {
     return (
         <>
             <main>
-                <div className="relative h-[600px] bg-gray-100 bg-no-repeat flex items-center justify-between p-16" style={{ backgroundImage: "url('/banner-transparencia.png')", backgroundSize: 'cover' }}>
-
-                </div>
-                <div className='bg-no-repeat lg:block hidden' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
-                    <div className='flex container mx-auto'>
-                        <Image className='py-2 relative' width={180} height={100} src="/trans.png"></Image>
-                        <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Transparêcia</p>
-                    </div>
-                </div>
-                <div className='bg-blue-400 lg:hidden'>
-                    <div className='flex container mx-auto px-4'>
-                        <Image className='py-2 relative mr-4' width={80} height={100} src="/trans.png"></Image>
-                        <p className='lg:text-3xl py-8 text-white text-2xl'>Transparêcia</p>
+                <div className="relative h-[500px] bg-gray-100 bg-no-repeat flex items-center justify-between p-16" style={{ backgroundImage: "url('/quemSomos.png')", backgroundSize: 'cover' }}>
+                    <div className="relative z-10 ml-4 sm:ml-8 lg:ml-32 lg:mt-96 mt-60">
+                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg">
+                            Transparência
+                        </button>
                     </div>
                 </div>
                 <HeaderTransparencia />

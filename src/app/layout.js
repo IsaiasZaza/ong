@@ -14,8 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>
-        <Header />       
-          {children}
+        <section className="lg:mx-20">
+          <Header />
+        </section>
+        {children}
         <Footer />
       </body>
     </html>

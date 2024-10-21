@@ -49,24 +49,17 @@ export default function NossaEquipe() {
         <section className="">
             <main>
                 {/* Banner Section */}
-                <div className="relative bg-gray-100 h-[500px] bg-no-repeat flex items-center justify-between " style={{ backgroundImage: "url('/banner-equipe.png')", backgroundSize: 'cover' }}>
-                </div>
+                <div className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat bg-cover flex items-center justify-between" style={{ backgroundImage: "url('/banner-equipe.png')" }}>
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
-                {/* Desktop Header */}
-                <div className='bg-no-repeat lg:block hidden' style={{ backgroundImage: "url('/bg.png')", backgroundSize: 'contain' }}>
-                    <div className='flex container mx-auto'>
-                        <Image className='py-2 relative' width={180} height={100} src="/nossaeq.png"></Image>
-                        <p className='lg:text-3xl mt-14 ml-8 text-white text-xl'>Nossa Equipe</p>
+                    {/* Button */}
+                    <div className="relative z-10 ml-4 sm:ml-8 lg:ml-36 lg:mt-96 mt-60">
+                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg">
+                            Nossa Equipe
+                        </button>
                     </div>
                 </div>
-                <div className='bg-blue-400 lg:hidden px-4'>
-                    <div className='flex container mx-auto'>
-                        <Image className='py-2 relative mr-4' width={80} height={100} src="/nossaeq.png"></Image>
-                        <p className='lg:text-3xl py-8 text-white text-2xl'>Nossa Equipe</p>
-                    </div>
-                </div>
-
-
                 {/* Equipe Components */}
                 <HeaderEquipe />
                 <DiretoriaExecutiva />

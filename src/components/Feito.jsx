@@ -88,7 +88,7 @@ const Feito = () => {
           <h2 className="text-white text-3xl font-bold mb-4">
             O que fazemos
           </h2>
-          <p className="text-white text-2xl mb-4">
+          <p className="text-white lg:text-2xl text-base mb-4">
             Cuidamos de crianças e adolescentes que vivem em situação de vulnerabilidade social e familiar, 
             oferecendo tempo de qualidade e alimentação saudável e nutritiva diariamente. Atuamos com metodologia 
             própria de Educação Integral, baseada em princípios e valores, aplicada em três áreas: 

@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className=" bg-white shadow mx-auto w-full z-50 font-sans">
+    <header className=" bg-white mx-auto w-full z-50 font-sans">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-20 flex justify-between items-center py-4">
         <div className="flex items-center">
           <a href="/">
@@ -30,12 +30,12 @@ const Header = () => {
               <li><a href="/oQueFazemos" className="text-gray-800 hover:text-orange-500">O Que Fazemos |</a></li>
               <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe |</a></li>
               <li><a href="/voluntariado" className="text-gray-800 hover:text-orange-500">Voluntariado |</a></li>
-              <li><a href="/transparencia" className="text-gray-800 hover:text-orange-500">Transparencia</a></li>
+              <li><a href="/transparencia" className="text-gray-800 hover:text-orange-500">Transparência</a></li>
             </ul>
           </nav>
         </div>
         <div className="hidden md:block">
-          <a href="/comoDoar" className="bg-orange-500 text-white px-4 py-16 rounded hover:bg-orange-600">Doe Agora</a>
+          <a href="/comoDoar" className="relative bg-orange-500 text-white px-4 py-16 rounded hover:bg-orange-600 z-50">Doe Agora</a>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={() => setIsOpen(!isOpen)} className="text-gray-800 hover:text-yellow-500">
@@ -51,7 +51,7 @@ const Header = () => {
               <li><a href="/oQueFazemos" className="text-gray-800 hover:text-orange-500">O Que Fazemos</a></li>
               <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe</a></li>
               <li><a href="/voluntariado" className="text-gray-800 hover:text-orange-500">Voluntariado</a></li>
-              <li><a href="/transparencia" className="text-gray-800 hover:text-orange-500">Transparencia</a></li>
+              <li><a href="/transparencia" className="text-gray-800 hover:text-orange-500">Transparência</a></li>
               <li><a href="/comoDoar" className="block px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">Doe Agora</a></li>
             </ul>
           </nav>

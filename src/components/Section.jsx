@@ -15,7 +15,7 @@ const Section = () => {
     <section>
       <Banner />
 
-      <div className="relative flex justify-center items-center py-20 font-sans">
+      <div className="relative flex justify-center items-center py-20 font-sans h-[800px]">
         <Image
           width={1080}
           height={1080}
@@ -23,7 +23,7 @@ const Section = () => {
           alt="Children playing"
           className="w-full h-full object-cover absolute inset-0 -z-10"
         />
-        <div className="relative bg-white bg-opacity-70 p-8 max-w-md text-center rounded-md shadow-lg">
+        <div className="relative bg-white bg-opacity-40 p-8 max-w-md text-center rounded-md shadow-lg h-full">
           <h2 className="text-2xl font-semibold mb-4">Propósito</h2>
           <p className="text-lg">
             Desenvolver indivíduos livres, produtivos, socialmente integrados e moralmente responsáveis.

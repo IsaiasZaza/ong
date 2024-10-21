@@ -15,7 +15,7 @@ export default function PropositoSection() {
         <img
           src="/meninaSomos.png" // Ajuste o caminho da imagem conforme necessário
           alt="Criança mostrando paz"
-          className="w-full h-auto object-contain"
+          className="w-full object-contain"
         />
       </div>
     </div>
