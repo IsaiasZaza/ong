@@ -6,8 +6,8 @@ import Image from "next/image";
 import { Autoplay } from 'swiper/modules';
 import HeaderEquipe from "@/components/HeaderEquipe";
 import DiretoriaExecutiva from "@/components/DiretoriaExecutiva";
-import ConselhoConsultivo from "@/components/ConselhoConsultivo";
-import ConselhoFiscal from "@/components/ConselhoFisca";
+import Conselho from "@/components/Conselho";
+
 
 export default function NossaEquipe() {
     const [selectedGroup, setSelectedGroup] = useState("Administrativo");
@@ -63,8 +63,7 @@ export default function NossaEquipe() {
                 {/* Equipe Components */}
                 <HeaderEquipe />
                 <DiretoriaExecutiva />
-                <ConselhoConsultivo />
-                <ConselhoFiscal />
+                <Conselho />
             </main>
 
             {/* Team Selection and Swiper */}
