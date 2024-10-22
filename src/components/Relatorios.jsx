@@ -26,7 +26,7 @@ const Relatorios = () => {
       <div className="flex flex-col items-center space-y-8 mb-8 container mx-auto px-4 md:px-8">
         {/* Relatórios Anuais */}
         <div>
-          <h2 className="text-xl font-semibold mb-12 text-center mt-12">Relatórios anuais</h2>
+          <h2 className="text-xl font-semibold mb-12 text-center mt-12 ">Relatórios anuais</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4 underline">
             {relatoriosAnuais.map((relatorio, index) => (
               <a

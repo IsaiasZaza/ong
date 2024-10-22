@@ -54,8 +54,8 @@ export default function NossaEquipe() {
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
                     {/* Button */}
-                    <div className="relative z-10 ml-4 sm:ml-8 lg:ml-36 lg:mt-96 mt-60">
-                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg">
+                    <div className="relative z-10 ml-4 sm:ml-8 lg:ml-36 lg:mt-[430px] mt-60">
+                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl font-bold shadow-lg">
                             Nossa Equipe
                         </button>
                     </div>

@@ -22,8 +22,8 @@ export default function voluntariado() {
               fill
               className="object-cover grayscale"
             />
-            <div className="relative z-10 ml-4 sm:ml-8 lg:ml-40">
-              <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg mt-[450px]">
+            <div className="relative z-10 flex flex-col justify-end lg:w-64 w-40 h-full ml-4 sm:ml-8 lg:ml-40 mb-4 sm:mb-8 lg:mb-16 py-3">
+              <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl font-bold shadow-lg">
                 Voluntariado
               </button>
             </div>

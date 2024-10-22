@@ -14,8 +14,8 @@ export default function NossaEquipe() {
                 }}
             >
                 <div className="relative z-10 ml-4 sm:ml-8 lg:ml-40">
-                    <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-sm sm:text-base lg:text-2xl font-bold shadow-lg mt-[450px]">
-                        O que fazemos
+                    <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-xl sm:text-base lg:text-2xl font-bold shadow-lg mt-[480px]">
+                        Quem somos
                     </button>
                 </div>
             </div>

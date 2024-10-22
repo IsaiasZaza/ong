@@ -15,22 +15,23 @@ const Section = () => {
     <section>
       <Banner />
 
-      <div className="relative flex justify-center items-center py-20 font-sans h-[800px]">
-        <Image
-          width={1080}
-          height={1080}
-          src="/banner-proposito.png" // Replace with the actual path
-          alt="Children playing"
-          className="w-full h-full object-cover absolute inset-0 -z-10"
-        />
-        <div className="relative bg-white bg-opacity-40 p-8 max-w-md text-center rounded-md shadow-lg h-full">
-          <h2 className="text-2xl font-semibold mb-4">Propósito</h2>
-          <p className="text-lg">
-            Desenvolver indivíduos livres, produtivos, socialmente integrados e moralmente responsáveis.
+      <div className="relative">
+        {/* Imagem com efeito parallax */}
+        <div
+          className="relative w-full h-[450px] sm:h-[400px] lg:h-[700px] overflow-hidden rounded-lg bg-fixed bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/banner-proposito.png')", // Caminho da imagem
+          }}
+        >
+          <div className="absolute inset-0 bg-black opacity-40"></div>
+        </div>
+
+        {/* Conteúdo sobre a imagem com efeito parallax */}
+        <div className="absolute top-0 w-full h-full flex flex-col justify-center items-center text-center text-white">
+          <h1 className="text-3xl lg:text-5xl font-semibold">Nosso Propósito</h1>
+          <p className="text-lg lg:text-2xl mt-4 max-w-xl">
+            Criamos um ambiente onde cada criança tem a oportunidade de aprender, crescer e se divertir. Acreditamos no poder da educação e da alegria para transformar vidas.
           </p>
-          <button className="mt-6 px-6 py-2 bg-orange-500 text-white rounded hover:bg-orange-600">
-            Nosso Compromisso
-          </button>
         </div>
       </div>
     </section>

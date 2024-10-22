@@ -10,30 +10,10 @@ const RelatoriosAnuais = () => {
       imagem: '/relatorio1.png', // Substitua pelo caminho da imagem real
       link: '/path-to-report-2023.pdf',
     },
-    { 
-      ano: '2022', 
-      imagem: '/relatorio1.png', 
-      link: '/path-to-report-2022.pdf', 
-    },
-    { 
-      ano: '2021', 
-      imagem: '/relatorio1.png', 
-      link: '/path-to-report-2021.pdf', 
-    },
-    { 
-      ano: '2020', 
-      imagem: '/relatorio1.png', 
-      link: '/path-to-report-2020.pdf', 
-    },
-    { 
-      ano: '2019', 
-      imagem: '/relatorio1.png', 
-      link: '/path-to-report-2019.pdf', 
-    },
   ];
 
   return (
-    <div className="flex flex-col items-center bg-slate-300 p-6 md:p-12">
+    <div className="flex flex-col items-center p-6 md:p-12">
       <h2 className="text-2xl font-semibold mb-8 text-center">Relatórios anuais</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
         {relatorios.map((relatorio, index) => (
