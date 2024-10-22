@@ -35,27 +35,27 @@ const Footer = () => {
 
             <div className="w-full md:w-1/3">
               <div className="flex space-x-4 mt-4 justify-center">
-                  <a href="https://www.instagram.com/gamboaacao/" aria-label="Instagram" target="_blank">
-                    <img src="/instagram.png" alt="Instagram" className="w-8 h-8" />
-                  </a>
-                  <a href="https://pt-br.facebook.com/onggamboaacao/" aria-label="Facebook" target="_blank">
-                    <img src="/facebook.png" alt="Facebook" className="w-8 h-8" />
-                  </a>
-                  <a href="#" aria-label="WhatsApp" target="_blank">
-                    <img src="/whatsapp.png" alt="WhatsApp" className="w-8 h-8" />
-                  </a>
-                  <a href="https://www.linkedin.com/company/79719285/admin/dashboard/" aria-label="LinkedIn" target="_blank">
-                    <img src="/linkdin.png" alt="LinkedIn" className="w-8 h-8" />
-                  </a>
-                  <a href="https://www.youtube.com/c/GAMBOAA%C3%87%C3%83O" aria-label="YouTube" target="_blank">
-                    <img src="/youtube.png" alt="YouTube" className="w-8 h-8" />
-                  </a>
+                <a href="https://www.instagram.com/gamboaacao/" aria-label="Instagram" target="_blank">
+                  <img src="/instagram.png" alt="Instagram" className="w-8 h-8" />
+                </a>
+                <a href="https://pt-br.facebook.com/onggamboaacao/" aria-label="Facebook" target="_blank">
+                  <img src="/facebook.png" alt="Facebook" className="w-8 h-8" />
+                </a>
+                <a href="#" aria-label="WhatsApp" target="_blank">
+                  <img src="/whatsapp.png" alt="WhatsApp" className="w-8 h-8" />
+                </a>
+                <a href="https://www.linkedin.com/company/79719285/admin/dashboard/" aria-label="LinkedIn" target="_blank">
+                  <img src="/linkdin.png" alt="LinkedIn" className="w-8 h-8" />
+                </a>
+                <a href="https://www.youtube.com/c/GAMBOAA%C3%87%C3%83O" aria-label="YouTube" target="_blank">
+                  <img src="/youtube.png" alt="YouTube" className="w-8 h-8" />
+                </a>
               </div>
               <p className="text-center mt-6">Fale conosco</p>
               <p className="text-center">21 98899-3699</p>
               <p className="text-center">contato@gamboacao.org.br</p>
             </div>
-            
+
           </div>
         </div>
 

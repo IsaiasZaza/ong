@@ -13,7 +13,7 @@ const Feito = () => {
   return (
     <div className="bg-orange-500 py-16">
       <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4">
-        
+
         {/* Left Side Swiper */}
         <div className="flex justify-center w-full">
           <Swiper
@@ -89,9 +89,9 @@ const Feito = () => {
             O que fazemos
           </h2>
           <p className="text-white lg:text-2xl text-base mb-4">
-            Cuidamos de crianças e adolescentes que vivem em situação de vulnerabilidade social e familiar, 
-            oferecendo tempo de qualidade e alimentação saudável e nutritiva diariamente. Atuamos com metodologia 
-            própria de Educação Integral, baseada em princípios e valores, aplicada em três áreas: 
+            Cuidamos de crianças e adolescentes que vivem em situação de vulnerabilidade social e familiar,
+            oferecendo tempo de qualidade e alimentação saudável e nutritiva diariamente. Atuamos com metodologia
+            própria de Educação Integral, baseada em princípios e valores, aplicada em três áreas:
             educação, arte e cultura e esporte e lazer.
           </p>
         </div>

@@ -9,15 +9,15 @@ const DonationOptions = () => {
                 <div className="bg-gray-100 shadow-md rounded-lg p-6 text-center">
                     <div className='bg-white'>
                         <div className="flex justify-center mb-4">
-                        <Image
-                            src="/transferencia.png" 
-                            alt="Transferência Bancária"
-                            width={200}
-                            height={150}
-                        />
+                            <Image
+                                src="/transferencia.png"
+                                alt="Transferência Bancária"
+                                width={200}
+                                height={150}
+                            />
+                        </div>
                     </div>
-                    </div>
-                    
+
                     <h2 className="text-orange-500 font-bold text-xl mb-2">Doe por Transferência Bancária</h2>
                     <p>Banco Itaú - 341<br />
                         Agência 6002<br />
@@ -50,15 +50,15 @@ const DonationOptions = () => {
                 <div className="bg-gray-100 shadow-md rounded-lg p-6 text-center">
                     <div className='bg-white'>
                         <div className="flex justify-center mb-4">
-                        <Image
-                            src="/paypal.png"
-                            alt="Doar via PayPal"
-                            width={200}
-                            height={80}
-                        />
+                            <Image
+                                src="/paypal.png"
+                                alt="Doar via PayPal"
+                                width={200}
+                                height={80}
+                            />
+                        </div>
                     </div>
-                    </div>
-                    
+
                     <h2 className="text-orange-500 font-bold text-xl mb-2">Doe via PayPal</h2>
                     <p>Você será redirecionado<br />
                         para a página segura do PayPal ao clicar no botão abaixo.

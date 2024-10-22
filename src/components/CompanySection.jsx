@@ -34,7 +34,7 @@ const CompanySection = () => {
                         href="https://wa.me/1234567890"
                         className="bg-orange-500 text-white flex items-center gap-2 py-2 px-4 mt-4 rounded-lg shadow-lg hover:bg-orange-600 transition-all text-lg font-bold"
                     >
-                    ENTRE EM CONTATO <IoLogoWhatsapp className="text-3xl text-white" />
+                        ENTRE EM CONTATO <IoLogoWhatsapp className="text-3xl text-white" />
                     </a>
                 </div>
 

@@ -14,7 +14,7 @@ export default function Missao() {
       imageSrc: '/banner-2.jpg',
       title: 'Arte e cultura',
       description:
-      'Ocupamos as crianças de forma estruturada com o intuito de melhorar a autoestima e de estimular a criatividade.'
+        'Ocupamos as crianças de forma estruturada com o intuito de melhorar a autoestima e de estimular a criatividade.'
     },
     {
       id: 3,

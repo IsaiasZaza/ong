@@ -76,7 +76,7 @@ const VoluntariadoSection = () => {
                                 Se você ou sua empresa têm especializações que podem apoiar nossa gestão (gerenciamento de projetos, contabilidade, advocacia, etc.), oferecer sua consultoria pro bono pode nos ajudar a aumentar nossa eficiência e governança.
                             </p>
                             <p className="leading-relaxed text-gray-700 px-6 font-bold text-lg">
-                                Ajude a fortalecer nossa operação!                            
+                                Ajude a fortalecer nossa operação!
                             </p>
                         </div>
                     </div>
