@@ -23,8 +23,8 @@ export default function NossaEquipe() {
         { name: "Isabela Marinho", role: "Professora de Canto", Image: "/Isabela-Marinho.png" },
         { name: "Lucas Vicente", role: "Professor de Música", Image: "/Lucas-Vicente.png" },
         { name: "Juliana Bragança", role: "Professora de Karatê", Image: "/Juliana-Bragança.png" },
-        { name: "Rena de Oliveira", role: "Professor de Karatê", Image: "/Rena-Oliveira.png" },
-        { name: "Iglesias", role: "Professor de Futebol", Image: "/ig.png" },
+        { name: "Renan de Oliveira", role: "Professor de Karatê", Image: "/Rena-Oliveira.png" },
+        { name: "Paulo Henrique Iglesias", role: "Professor de Futebol", Image: "/ig.png" },
     ];
 
     return (
@@ -36,7 +36,7 @@ export default function NossaEquipe() {
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                     {/* Button */}
                     <div className="relative z-10 ml-4 sm:ml-8 lg:ml-36 lg:mt-[430px] mt-60">
-                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl font-bold shadow-lg">
+                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl shadow-lg">
                             Nossa Equipe
                         </button>
                     </div>
@@ -50,7 +50,7 @@ export default function NossaEquipe() {
             {/* Team Members Slider */}
             <div className="w-full bg-[#D4F3FF] pb-12 mb-8">
                 <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    <h1 className="text-center text-3xl font-bold text-orange-500 py-4 mb-8">Equipe</h1>
+                    <h1 className="text-center text-3xl text-orange-500 py-4 mb-8">Equipe</h1>
                     <Swiper
                         spaceBetween={20}
                         slidesPerView={1}

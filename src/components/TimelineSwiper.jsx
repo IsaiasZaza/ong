@@ -111,7 +111,7 @@ export default function TimelineSwiper() {
                             </h3>
 
                             {/* Texto */}
-                            <p className="text-sm md:text-base font-semibold overflow-hidden flex-grow px-2 md:px-4">
+                            <p className="text-sm md:text-base overflow-hidden flex-grow px-2 md:px-4">
                                 {item.text}
                             </p>
 

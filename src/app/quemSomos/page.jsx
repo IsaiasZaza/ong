@@ -23,11 +23,11 @@ export default function NossaEquipe() {
             {/* Conteúdo Central */}
             <div className="mx-auto">
                 <div className="mx-auto container py-10 text-center">
-                    <h1 className="text-2xl lg:text-4xl font-bold mb-6">
+                    <h1 className="text-2xl lg:text-4xl mb-6">
                         Somos a Gamboa Ação
                     </h1>
                     <div className="text-start mb-8 flex flex-col lg:flex-row">
-                        <p className="text-lg lg:w-1/2 mx-auto px-4">
+                        <p className="text-2xl lg:w-1/2 mx-auto px-4">
                             A <strong>Gamboa Ação</strong> é uma instituição sem fins
                             lucrativos, situada na região portuária do Rio de Janeiro,{" "}
                             <strong>
@@ -54,7 +54,7 @@ export default function NossaEquipe() {
                         alt="Children playing"
                         className="w-full h-full object-cover"
                     />
-                    <h1 className="absolute inset-6 md:inset-12 flex items-center justify-center text-orange-500 text-sm md:text-lg lg:text-2xl font-semibold text-center px-4 z-10 w-full md:w-3/4 lg:w-1/2">
+                    <h1 className="absolute inset-6 md:inset-12 flex items-center justify-center text-orange-500 text-sm md:text-lg lg:text-2xl text-center px-4 z-10 w-full md:w-3/4 lg:w-1/2">
                         Esse é o nosso propósito: desenvolver indivíduos livres,
                         produtivos, socialmente integrados e moralmente responsáveis.
                     </h1>

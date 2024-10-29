@@ -11,11 +11,6 @@ const Relatorios = () => {
     { ano: 'Balanço e DRE 2017', link: 'https://drive.google.com/file/d/1-Yo2KQYAe8sCpPCiQ3URVmd2riAbZSkl/view?usp=sharing' },
   ];
 
-  const codigoConduta = {
-    texto: 'Código de ética e conduta',
-    link: '/path/to/codigo-de-etica.pdf',
-  };
-
   const estatutoSocial = {
     texto: 'Estatuto Social',
     link: '/path/to/estatuto-social.pdf',
@@ -43,19 +38,7 @@ const Relatorios = () => {
           </div>
         </div>
 
-        {/* Código de ética e conduta */}
-        <div className="w-full sm:w-4/5 lg:w-2/5">
-          <h2 className="text-xl font-semibold mb-12 text-center mt-12">Código de ética e Conduta Gamboa Ação</h2>
-          <a
-            href={codigoConduta.link}
-            className="flex items-center text-blue-600 hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillFolder className="h-6 w-6 mr-2" />
-            {codigoConduta.texto}
-          </a>
-        </div>
+
 
         {/* Estatuto Social */}
         <div className="w-full sm:w-4/5 lg:w-2/5">
