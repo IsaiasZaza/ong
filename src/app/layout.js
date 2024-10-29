@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import "@fontsource/itim"; // Defaults to weight 400
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
+      <body className="font-itim">
         <section className="lg:mx-20">
           <Header />
         </section>

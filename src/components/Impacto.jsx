@@ -17,25 +17,25 @@ const Impacto = () => {
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-10 w-full pt-16">
             <div className="text-center flex-1 min-w-[120px] p-4">
               <h3 className="text-3xl md:text-4xl font-bold">+300</h3>
-              <p className="text-sm md:text-base font-semibold">
+              <p className="text-sm md:text-xl font-semibold">
                 Assistidos diretamente ao longo de 8 anos
               </p>
             </div>
             <div className="text-center flex-1 min-w-[120px] p-4">
               <h3 className="text-3xl md:text-4xl font-bold">+1500</h3>
-              <p className="text-sm md:text-base font-semibold">
+              <p className="text-sm md:text-xl font-semibold">
                 Beneficiários impactados indiretamente ao longo de 8 anos
               </p>
             </div>
             <div className="text-center flex-1 min-w-[120px] p-4">
               <h3 className="text-3xl md:text-4xl font-bold">+80</h3>
-              <p className="text-sm md:text-base font-semibold">
+              <p className="text-sm md:text-xl font-semibold">
                 Famílias impactadas ao longo de 8 anos
               </p>
             </div>
             <div className="text-center flex-1 min-w-[120px] p-4">
               <h3 className="text-3xl md:text-4xl font-bold">+40</h3>
-              <p className="text-sm md:text-base font-semibold">
+              <p className="text-sm md:text-xl font-semibold">
                 Empregos e renda gerados diretamente ao longo de 8 anos
               </p>
             </div>
