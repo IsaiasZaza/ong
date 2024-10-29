@@ -24,12 +24,12 @@ const Header = () => {
 
         <div className="hidden lg:flex space-x-4">
           <nav>
-            <ul className="flex space-x-3">
-              <li><a href="/comoDoar" className="text-gray-800 hover:text-orange-500">Como Doar |</a></li>
-              <li><a href="/quemSomos" className="text-gray-800 hover:text-orange-500">Quem Somos |</a></li>
-              <li><a href="/oQueFazemos" className="text-gray-800 hover:text-orange-500">O Que Fazemos |</a></li>
-              <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe |</a></li>
-              <li><a href="/voluntariado" className="text-gray-800 hover:text-orange-500">Voluntariado |</a></li>
+            <ul className="flex space-x-3 lg:text-lg md:text-base text-base">
+              <li><a href="/comoDoar" className="text-gray-800 hover:text-orange-500">Como Doar </a></li>
+              <li><a href="/quemSomos" className="text-gray-800 hover:text-orange-500">Quem Somos </a></li>
+              <li><a href="/oQueFazemos" className="text-gray-800 hover:text-orange-500">O Que Fazemos </a></li>
+              <li><a href="/nossa-equipe" className="text-gray-800 hover:text-orange-500">Nossa Equipe </a></li>
+              <li><a href="/voluntariado" className="text-gray-800 hover:text-orange-500">Voluntariado </a></li>
               <li><a href="/transparencia" className="text-gray-800 hover:text-orange-500">Transparência</a></li>
             </ul>
           </nav>

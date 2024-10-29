@@ -21,9 +21,6 @@ const Footer = () => {
             {/* Coluna com a logo e links no final */}
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex flex-col h-full">
               <img src="logo2.png" alt="Logo" className="w-48 h-auto" />
-              <div className="mt-44 flex flex-col space-y-2">
-                <a href="/transparencia" className="underline">Transparência</a>
-              </div>
             </div>
 
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex-col">
