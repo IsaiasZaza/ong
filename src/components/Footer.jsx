@@ -22,8 +22,7 @@ const Footer = () => {
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex flex-col h-full">
               <img src="logo2.png" alt="Logo" className="w-48 h-auto" />
               <div className="mt-44 flex flex-col space-y-2">
-                <a href="#" className="underline">Transparência</a>
-                <a href="#" className='underline'>Política de privacidade</a>
+                <a href="/transparencia" className="underline">Transparência</a>
               </div>
             </div>
 
@@ -36,19 +35,19 @@ const Footer = () => {
             <div className="w-full md:w-1/3">
               <div className="flex space-x-4 mt-4 justify-center">
                 <a href="https://www.instagram.com/gamboaacao/" aria-label="Instagram" target="_blank">
-                  <img src="/instagram.png" alt="Instagram" className="w-8 h-8" />
+                  <img src="/instagran.png" alt="Instagram" className="w-8 h-8" />
                 </a>
-                <a href="https://pt-br.facebook.com/onggamboaacao/" aria-label="Facebook" target="_blank">
-                  <img src="/facebook.png" alt="Facebook" className="w-8 h-8" />
+                <a href="https://pt-br.facebook1.com/onggamboaacao/" aria-label="Facebook" target="_blank">
+                  <img src="/facebook1.png" alt="Facebook" className="w-8 h-8" />
                 </a>
                 <a href="#" aria-label="WhatsApp" target="_blank">
-                  <img src="/whatsapp.png" alt="WhatsApp" className="w-8 h-8" />
+                  <img src="/whatsapp1.png" alt="WhatsApp" className="w-8 h-8" />
                 </a>
                 <a href="https://www.linkedin.com/company/79719285/admin/dashboard/" aria-label="LinkedIn" target="_blank">
-                  <img src="/linkdin.png" alt="LinkedIn" className="w-8 h-8" />
+                  <img src="/linkedin.png" alt="LinkedIn" className="w-8 h-8" />
                 </a>
                 <a href="https://www.youtube.com/c/GAMBOAA%C3%87%C3%83O" aria-label="YouTube" target="_blank">
-                  <img src="/youtube.png" alt="YouTube" className="w-8 h-8" />
+                  <img src="/youtube1.png" alt="YouTube" className="w-8 h-8" />
                 </a>
               </div>
               <p className="text-center mt-6">Fale conosco</p>

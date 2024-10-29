@@ -3,7 +3,7 @@ const Cards = () => {
     <section className="py-8 bg-white">
       <div className="text-center">
         <h2 className="text-xl font-bold text-[#F97316] mb-8 md:mb-12">
-          A Gamboa Ação atua em três áreas
+          A Gamboa Ação atua em quatro áreas
         </h2>
       </div>
       <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-24">

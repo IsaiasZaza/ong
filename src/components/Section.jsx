@@ -27,11 +27,12 @@ const Section = () => {
         </div>
 
         {/* Conteúdo sobre a imagem com efeito parallax */}
-        <div className="absolute top-0 w-full h-full flex flex-col justify-center items-center text-center text-white">
-          <h1 className="text-3xl lg:text-5xl font-semibold">Nosso Propósito</h1>
-          <p className="text-lg lg:text-2xl mt-4 max-w-xl">
-            Criamos um ambiente onde cada criança tem a oportunidade de aprender, crescer e se divertir. Acreditamos no poder da educação e da alegria para transformar vidas.
+        <div className="absolute top-0 w-full h-full flex flex-col justify-center items-center text-center text-white ">
+          <h1 className="text-3xl lg:text-5xl font-semibold mb-8">Nosso Propósito</h1>
+          <p className="text-lg lg:text-2xl mt-4 max-w-xl mb-8">
+          Desenvolver indivíduos livres, produtivos, socialmente integrados e moralmente responsáveis.
           </p>
+          <a className="bg-orange-500 text-white font-semibold py-4 px-8 rounded hover:bg-orange-600 transition duration-300 mt-8 ">Nosso Compromisso</a>
         </div>
       </div>
     </section>

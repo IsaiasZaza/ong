@@ -7,7 +7,7 @@ const NossasAtividades = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Educação */}
         <div className="flex flex-col items-center">
-          <h2 className="text-xl font-bold text-orange-500 mb-4">Educação</h2>
+          <h2 className="text-2xl font-bold text-orange-500 mb-4">Educação</h2>
 
           <img
             src="activite1.png"
@@ -23,7 +23,7 @@ const NossasAtividades = () => {
 
         {/* Arte e Cultura */}
         <div className="flex flex-col items-center">
-          <h2 className="text-xl font-bold text-orange-500 mb-4">Arte e Cultura</h2>
+          <h2 className="text-2xl font-bold text-orange-500 mb-4">Arte e Cultura</h2>
           <img
             src="activite2.png"
             alt="Arte e Cultura"
@@ -38,7 +38,7 @@ const NossasAtividades = () => {
 
         {/* Esporte e Lazer */}
         <div className="flex flex-col items-center">
-          <h2 className="text-xl font-bold text-orange-500 mb-4">Esporte e Lazer</h2>
+          <h2 className="text-2xl font-bold text-orange-500 mb-4">Esporte e Lazer</h2>
           <img
             src="activite3.png"
             alt="Esporte e Lazer"
@@ -54,7 +54,7 @@ const NossasAtividades = () => {
 
         {/* Saúde e Higiene */}
         <div className="flex flex-col items-center">
-          <h2 className="text-xl font-bold text-orange-500 mb-4">Saúde e Higiene</h2>
+          <h2 className="text-2xl font-bold text-orange-500 mb-4">Saúde e Higiene</h2>
           <img
             src="activite4.png"
             alt="Saúde e Higiene"
