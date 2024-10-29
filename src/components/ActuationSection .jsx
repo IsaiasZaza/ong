@@ -7,8 +7,8 @@ const ActuationSection = () => {
                 {/* Heading */}
                 <div className="text-start lg:px-6">
                     <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center">Onde atuamos</h1>
-                    <p className="mt-4 text-lg sm:text-xl md:text-2xl">Gamboa - Rio de Janeiro - RJ</p>
-                    <p className="text-lg sm:text-xl md:text-2xl">Comunidade da Providência e entorno</p>
+                    <p className="mt-4 text-lg sm:text-xl md:text-2xl text-center">Gamboa - Rio de Janeiro - RJ</p>
+                    <p className="text-lg sm:text-xl md:text-2xl text-center">Comunidade da Providência e entorno</p>
                 </div>
 
                 {/* Statistics Cards */}
