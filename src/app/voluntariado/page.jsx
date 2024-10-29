@@ -13,7 +13,7 @@ export default function voluntariado() {
     <>
       <main>
 
-        <section className="font-sans">
+        <section>
           {/* Header Section with background image */}
           <div className="relative w-full h-[60vh]">
             <Image

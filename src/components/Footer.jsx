@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       <PartnersSection />
 
-      <footer className="bg-orange-500 text-white py-8 font-sans">
+      <footer className="bg-orange-500 text-white py-8 ">
         <div className="container mx-auto px-6 pt-12">
           <div className="flex flex-wrap justify-between">
 

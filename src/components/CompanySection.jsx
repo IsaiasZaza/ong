@@ -5,7 +5,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const CompanySection = () => {
     return (
         <div className=" py-10">
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center font-sans lg:px-0 px-4">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center lg:px-0 px-4">
                 {/* Left Side Content */}
                 <div>
                     <div className="bg-orange-500 text-white py-4 px-6 inline-block text-2xl font-bold rounded-t-lg w-full">

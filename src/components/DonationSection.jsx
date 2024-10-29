@@ -2,7 +2,7 @@ import React from "react";
 
 const DonationSection = () => {
     return (
-        <div className="bg-gray-100 py-10 font-sans">
+        <div className="bg-gray-100 py-10">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center bg-orange-500 text-white py-4 text-xl font-bold">
                     Pessoa Física
@@ -47,7 +47,7 @@ const DonationSection = () => {
                                 <iframe
                                     width="100%"
                                     height="100%"
-                                    src="https://www.youtube.com/embed/do8TA0eif4E?rel=0"
+                                    src="https://www.youtube.com/watch?v=xFKF_GrBNv4&rel=0"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

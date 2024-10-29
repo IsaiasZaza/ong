@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import Banner from "./Banner";
+import Link from "next/link";
 
 const Section = () => {
   return (
@@ -32,7 +33,7 @@ const Section = () => {
           <p className="text-lg lg:text-2xl mt-4 max-w-xl mb-8">
           Desenvolver indivíduos livres, produtivos, socialmente integrados e moralmente responsáveis.
           </p>
-          <a className="bg-orange-500 text-white font-semibold py-4 px-8 rounded hover:bg-orange-600 transition duration-300 mt-8 ">Nosso Compromisso</a>
+          <Link href="./oQueFazemos" className="bg-orange-500 text-white font-semibold py-4 px-8 rounded hover:bg-orange-600 transition duration-300 mt-8 ">Nosso Compromisso</Link>
         </div>
       </div>
     </section>

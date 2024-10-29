@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section className="relative h-screen flex items-center overflow-hidden font-sans z-0">
+    <section className="relative h-screen flex items-center overflow-hidden z-0">
       <div className="absolute inset-0 w-full h-full">
         <Image
           src="/banner-home01.png"

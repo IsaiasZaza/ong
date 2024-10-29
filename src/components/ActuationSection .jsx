@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const ActuationSection = () => {
     return (
-        <div className="relative h-auto bg-cover bg-center py-12 px-4 sm:px-8 font-sans" style={{ backgroundImage: "url('/fundo.png')" }}>
+        <div className="relative h-[700px] bg-cover bg-center py-12 px-4 sm:px-8" style={{ backgroundImage: "url('/teste.png')" }}>
             {/* Background Overlay */}
             <div className="absolute inset-0 bg-blue-900 bg-opacity-50"></div>
 

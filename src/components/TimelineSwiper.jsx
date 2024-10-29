@@ -53,7 +53,7 @@ const timelineData = [
     {
         year: "2024",
         image: "/data9.png",
-        text: "A Gamboa Ação implanta de maneira estruturada o programa Saúde e Higiene, que consiste em oferecer alimentação saudável diariamente e dar acesso a hábitos de higiene pessoal.   Realização da segunda edição do Projeto Arte Tech. Celebração de datas importantes com grandes eventos: taça da harmonia, dia mundial do meio ambiente, dia das crianças, dia da alfabetização  e o natal solidário."
+        text: "A Gamboa Ação mudou para uma nova sede, e continua os programas de saúde e alimentação.  continua transformando vidas na região portuária do Rio de Janeiro."
     },
 ];
 

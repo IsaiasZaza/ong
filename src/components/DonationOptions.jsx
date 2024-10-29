@@ -1,10 +1,11 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 const DonationOptions = () => {
     return (
         <>
-            <div className="max-w-7xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6 font-sans">
+            <div className="max-w-7xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* Cartão de Transferência Bancária */}
                 <div className="bg-gray-100 shadow-md rounded-lg p-6 text-center">
                     <div className='bg-white'>
@@ -60,12 +61,12 @@ const DonationOptions = () => {
                     </div>
 
                     <h2 className="text-orange-500 font-bold text-xl mb-2">Doe via PayPal</h2>
-                    <p>Você será redirecionado<br />
+                    <p className='mb-4'>Você será redirecionado<br />
                         para a página segura do PayPal ao clicar no botão abaixo.
                     </p>
-                    <button className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full mt-4">
+                    <Link target='_blank' href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=RREGBJQ28YU2E&ssrt=1730225617926" className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full ">
                         Doar via PayPal
-                    </button>
+                    </Link>
                     <p className="text-sm mt-2">Selecione: <strong>transformar em doação mensalmente</strong></p>
                 </div>
             </div>

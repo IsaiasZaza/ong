@@ -36,7 +36,7 @@ export default function NewsLetterForm() {
     };
 
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center bg-blue-50 px-8 py-8 font-sans">
+        <div className="flex flex-col md:flex-row items-center justify-center bg-blue-50 px-8 py-8">
             <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
                 <h2 className="text-3xl font-semibold mb-4 text-blue-950">Newsletter Gamboa Ação</h2>
                 <p className="text-blue-900">
