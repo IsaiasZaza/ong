@@ -47,7 +47,7 @@ const DonationSection = () => {
                                 <iframe
                                     width="100%"
                                     height="100%"
-                                    src="https://www.youtube.com/watch?v=xFKF_GrBNv4&rel=0"
+                                    src="https://www.youtube.com/embed/xFKF_GrBNv4?si=hw2a8NJjsZUP7cXc"
                                     title="YouTube video player"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
