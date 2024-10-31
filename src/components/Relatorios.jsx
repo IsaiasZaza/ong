@@ -21,7 +21,7 @@ const Relatorios = () => {
       <div className="flex flex-col items-center space-y-8 mb-8 container mx-auto px-4 md:px-8">
         {/* Relatórios Anuais */}
         <div>
-          <h2 className="text-xl font-semibold mb-12 text-center mt-12 ">Relatórios anuais</h2>
+          <h2 className="text-xl font-semibold mb-12 text-center mt-12 ">Balanços Financeiros e Demonstrações de Resultado</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4 underline">
             {relatoriosAnuais.map((relatorio, index) => (
               <a
@@ -39,20 +39,6 @@ const Relatorios = () => {
         </div>
 
 
-
-        {/* Estatuto Social */}
-        <div className="w-full sm:w-4/5 lg:w-2/5">
-          <h2 className="text-xl font-semibold mb-12 text-center mt-12">Estatuto Social Gamboa Ação</h2>
-          <a
-            href={estatutoSocial.link}
-            className="flex items-center text-blue-600 hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillFolder className="h-6 w-6 mr-2" />
-            {estatutoSocial.texto}
-          </a>
-        </div>
       </div>
     </>
   );

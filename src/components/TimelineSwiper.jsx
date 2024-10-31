@@ -75,46 +75,46 @@ export default function TimelineSwiper() {
                 </svg>
             </div>
 
-            {/* Swiper Container */}
+            <p className='text-white text-center lg:text-5xl md:text-4xl tex mb-4'>Nossa linha do tempo</p>
             <div className="container mx-auto px-4 relative z-10">
-                <Swiper
+            <Swiper
                     spaceBetween={20}
-                    slidesPerView={1}
-                    loop={true}
-                    pagination={{ clickable: true }}
-                    modules={[Navigation, Autoplay]}
-                    autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false,
-                    }}
+    slidesPerView={1}
+                loop={true}
+                pagination={{ clickable: true }}
+                modules={[Navigation, Autoplay]}
+                autoplay={{
+                    delay: 2000,
+                    disableOnInteraction: false,
+                }}
                     breakpoints={{
-                        640: { slidesPerView: 1 }, // Telefones
-                        768: { slidesPerView: 2 }, // Tablets
-                        1024: { slidesPerView: 3 }, // Laptops e desktops
-                    }}
+                    640: { slidesPerView: 1 }, // Telefones
+                    768: { slidesPerView: 2 }, // Tablets
+                    1024: { slidesPerView: 3 }, // Laptops e desktops
+                }}
                 >
-                    {timelineData.map((item, index) => (
+            {timelineDaa.map((item, index) => (
                         <SwiperSlide
                             key={index}
-                            className="bg-white p-4 rounded-lg shadow-lg flex flex-col justify-between"
-                            style={{ minHeight: "500px" }} // Ajuste da altura mínima
-                        >
-                            {/* Imagem */}
-                            <div
+                    className="bg-white p-4 rounded-lg shadow-lg flex flex-col justify-between"
+                    style={{ minHeight: "500px" }} // Ajuste da altura mínima
+                >
+                    {/* Imagem */}
+                    <div
                                 className="h-56 w-full bg-cover bg-center rounded-lg mb-4"
-                                style={{ backgroundImage: `url(${item.image})` }}
-                            ></div>
-
-                            {/* Ano */}
+                        style={{ backgroundImage: `url(${item.image})` }}
+                    ></div>
+                        
+                        {/* Ano */}
                             <h3 className="text-lg md:text-xl font-bold mb-2 text-orange-500 px-2 md:px-4">
                                 {item.year}
                             </h3>
 
-                            {/* Texto */}
+                        {/* Texto */}
                             <p className="text-sm md:text-base overflow-hidden flex-grow px-2 md:px-4">
                                 {item.text}
                             </p>
-
+                        
                             {/* Link (caso exista) */}
                             {item.link && (
                                 <a
@@ -129,7 +129,8 @@ export default function TimelineSwiper() {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-            </div>
-        </div>
-    );
-}
+        </div> 
+        </div >
+
+    ); 
+} 

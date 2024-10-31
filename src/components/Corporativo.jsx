@@ -8,8 +8,8 @@ export default function Corporativo() {
 
                     {/* Coluna da esquerda - Datas Comemorativas */}
                     <div className="md:w-1/2 p-6 rounded-lg">
-                        <h2 className="text-2xl font-bold text-blue-600 mb-6">
-                            Datas comemorativas + <span className="text-gray-700">voluntariado corporativo</span>
+                        <h2 className="text-2xl font-bold text-[#004E96] mb-6">
+                            Datas comemorativas + <span className="text-[#004E96] font-bold text-4xl">voluntariado corporativo</span>
                         </h2>
 
                         {/* 1º Semestre */}
@@ -38,7 +38,7 @@ export default function Corporativo() {
                     </div>
 
                     {/* Coluna da direita - Celebrar com Propósito */}
-                    <div className="md:w-1/2 bg-blue-600 text-white p-8 rounded-lg flex flex-col justify-between text-center shadow-2xl mt-8 md:mt-0 md:relative">
+                    <div className="md:w-1/2 bg-[#004E96] text-white p-8 rounded-lg flex flex-col justify-between text-center shadow-2xl mt-8 md:mt-0 md:relative">
                         <div>
                             <h2 className="text-2xl font-bold mb-6">Celebrar com Propósito:</h2>
                             <p className="mb-6 text-lg sm:text-xl">

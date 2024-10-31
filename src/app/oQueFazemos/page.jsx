@@ -13,13 +13,18 @@ export default function oQueFazemos() {
   return (
     <>
       <main>
-        <div className="relative h-[500px] bg-gray-100 bg-no-repeat flex items-center justify-between " style={{ backgroundImage: "url('/banner-fazemos.png')", backgroundSize: 'cover' }}>
-        <div className="relative z-10 ml-4 sm:ml-8 lg:ml-40">
-                    <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-xl sm:text-base lg:text-2xl shadow-lg mt-[430px]">
-                        O que fazemos
-                    </button>
-                </div>
+        <div
+          className="relative h-[300px] sm:h-[400px] lg:h-[500px] bg-gray-100 bg-no-repeat flex items-center justify-between"
+          style={{ backgroundImage: "url('/banner-fazemos.png')", backgroundSize: 'cover' }}
+        >
+          <div className="relative z-10 ml-4 sm:ml-8 lg:ml-40">
+            <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-xl lg:text-2xl shadow-lg mt-[250px] sm:mt-[330px] lg:mt-[430px]">
+              O que fazemos
+            </button>
+          </div>
         </div>
+
+
 
         <Cards />
         <ComoAtuamos />

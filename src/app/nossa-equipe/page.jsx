@@ -31,16 +31,21 @@ export default function NossaEquipe() {
         <section>
             <main>
                 {/* Banner Section */}
-                <div className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat bg-cover flex items-center justify-between" style={{ backgroundImage: "url('/banner-equipe.png')" }}>
+                <div
+                    className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat bg-cover flex items-center justify-between"
+                    style={{ backgroundImage: "url('/banner-equipe.png')" }}
+                >
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+
                     {/* Button */}
-                    <div className="relative z-10 ml-4 sm:ml-8 lg:ml-36 lg:mt-[430px] mt-60">
+                    <div className="relative z-10 ml-4 sm:ml-8 lg:ml-36 mt-60 lg:mt-[430px]">
                         <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl shadow-lg">
                             Nossa Equipe
                         </button>
                     </div>
                 </div>
+
                 {/* Equipe Components */}
                 <HeaderEquipe />
                 <DiretoriaExecutiva />

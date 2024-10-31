@@ -7,18 +7,19 @@ export default function NossaEquipe() {
     return (
         <section className="">
             <div
-                className="relative bg-gray-100 bg-no-repeat h-[550px]"
+                className="relative bg-gray-100 bg-no-repeat h-[400px] sm:h-[500px] lg:h-[550px]"
                 style={{
                     backgroundImage: "url('/banner-transparencia.png')",
                     backgroundSize: "cover",
                 }}
             >
                 <div className="relative z-10 ml-4 sm:ml-8 lg:ml-40">
-                    <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-xl sm:text-base lg:text-2xl font-bold shadow-lg mt-[480px]">
+                    <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl font-bold shadow-lg mt-[360px] sm:mt-[420px] lg:mt-[480px]">
                         Quem somos
                     </button>
                 </div>
             </div>
+
 
             {/* Conteúdo Central */}
             <div className="mx-auto">

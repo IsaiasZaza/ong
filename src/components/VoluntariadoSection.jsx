@@ -19,7 +19,7 @@ const VoluntariadoSection = () => {
 
                         {/* Texto da direita */}
                         <div className="md:w-1/2 space-y-6 flex flex-col justify-center">
-                            <h2 className="text-2xl font-semibold text-white px-6 py-4 bg-blue-500">
+                            <h2 className="text-2xl  px-6 py-4 bg-[#63C5EC]">
                                 Voluntariado mão na massa, tradicional:
                             </h2>
                             <p className="leading-relaxed text-gray-700 px-6">
@@ -35,7 +35,7 @@ const VoluntariadoSection = () => {
                     <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0 mt-8">
                         {/* Texto à esquerda */}
                         <div className="md:w-1/2 space-y-6">
-                            <h2 className="text-2xl font-semibold text-white px-6 py-4 bg-blue-500">
+                            <h2 className="text-2xl  px-6 py-4 bg-[#63C5EC]">
                                 Voluntariado por competência:
                             </h2>
                             <p className="leading-relaxed text-gray-700 px-6">
@@ -69,7 +69,7 @@ const VoluntariadoSection = () => {
 
                         {/* Texto à direita */}
                         <div className="md:w-1/2 space-y-6 flex flex-col justify-center">
-                            <h2 className="text-2xl font-semibold text-white px-6 py-4 bg-blue-500">
+                            <h2 className="text-2xl  px-6 py-4 bg-[#63C5EC]">
                                 Voluntariado Pro Bono:
                             </h2>
                             <p className="leading-relaxed text-gray-700 px-6">

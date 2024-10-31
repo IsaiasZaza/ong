@@ -16,7 +16,7 @@ const ComoAtuamos = () => {
 
           {/* Texto da direita */}
           <div className="md:w-1/2 space-y-6 flex flex-col justify-center">
-            <h2 className="text-2xl font-semibold text-white px-6 py-4 bg-orange-500">
+            <h2 className="text-2xl text-white px-6 py-4 bg-orange-500">
               Como Atuamos:
             </h2>
             <p className="leading-relaxed text-gray-700 px-6 lg:text-xl text-base">
@@ -38,7 +38,7 @@ const ComoAtuamos = () => {
             <p className="leading-relaxed text-gray-700 px-6 pb-10 lg:text-xl text-base">
               Além de conduzir as crianças para um pensamento livre e autônomo, deseja-se colaborar para prepará-las para encarar a vida com responsabilidade e capacidade de questionamento. Para tanto, a Gamboa Ação busca estimular as crianças e os jovens a saberem escutar o próximo e se comunicar claramente para expressar seus pensamentos.
             </p>
-            <div className="text-2xl font-semibold text-white h-16 bg-orange-500"></div>
+            <div className="text-2xl text-white h-16 bg-orange-500"></div>
           </div>
 
           {/* Imagem da direita */}
