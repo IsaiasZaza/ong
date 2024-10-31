@@ -19,10 +19,9 @@ const RelatoriosAnuais = () => {
         {relatorios.map((relatorio, index) => (
           <a
             key={index}
-            href={relatorio.link}
-            target="_blank"
+            href=""
             rel="noopener noreferrer"
-            className="flex justify-center items-center bg-gray-100 border border-gray-300 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"
+            className="flex justify-center items-center bg-gray-100 border border-gray-300 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out cursor-default"
           >
             {relatorio.imagem ? (
               <img
