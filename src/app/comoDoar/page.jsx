@@ -34,13 +34,13 @@ export default function comoDoar() {
 
         {/* Componente para mobile e telas médias */}
         <div
-          className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat flex items-center justify-between p-4 lg:p-16 lg:hidden"
+          className="relative bg-gray-100 bg-center  bg-no-repeat flex items-center justify-between p-4 lg:p-16 lg:hidden"
           style={{
             backgroundImage: "url('/doarPic.png')",
-            backgroundSize: 'cover',
+            backgroundSize: 'contain',
           }}
         >
-          <div className="relative z-10 max-w-lg mt-8 sm:mt-12 lg:mt-16 mx-4 sm:mx-8 lg:mx-24">
+          <div className="relative z-10 max-w-lg  sm:mt-8 lg:mt-16 mx-4 sm:mx-8 lg:mx-24">
             <h1 className="text-xl sm:text-2xl lg:text-4xl font-bold text-orange-500">
               Sua doação nos ajuda a transformar vidas.
             </h1>

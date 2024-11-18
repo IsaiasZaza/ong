@@ -32,8 +32,8 @@ export default function NossaEquipe() {
             <main>
                 {/* Banner Section */}
                 <div
-                    className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat bg-cover flex items-center justify-between"
-                    style={{ backgroundImage: "url('/banner-equipe.png')" }}
+                    className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat bg-cover lg:flex items-center justify-between hidden"
+                    style={{ backgroundImage: "url('/banner-equipe.png')" }} // Imagem para desktop
                 >
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
@@ -45,6 +45,23 @@ export default function NossaEquipe() {
                         </button>
                     </div>
                 </div>
+
+                {/* Versão Mobile */}
+                <div
+                    className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat bg-cover bg-center flex items-center justify-between lg:hidden"
+                    style={{ backgroundImage: "url('/mb5.png')" }} // Imagem para mobile
+                >
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+
+                    {/* Button */}
+                    <div className="relative z-10 ml-4 sm:ml-8 lg:ml-36 mt-[250px] sm:mt-[200px]">
+                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl shadow-lg">
+                            Nossa Equipe
+                        </button>
+                    </div>
+                </div>
+
 
                 {/* Equipe Components */}
                 <HeaderEquipe />
