@@ -25,6 +25,19 @@ const Feito = () => {
             className="w-full max-w-xl rounded-lg"
           >
             <SwiperSlide>
+              <div className="relative w-full h-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/U1NP1EnFtso?si=KaiSaxAdrt890wOs"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
               <Image
                 width={500}
                 height={400}
@@ -77,19 +90,6 @@ const Feito = () => {
                 alt="Third Image"
                 className="rounded-lg shadow-lg object-cover w-full"
               />
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/U1NP1EnFtso?si=KaiSaxAdrt890wOs"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
-              </div>
             </SwiperSlide>
           </Swiper>
         </div>
