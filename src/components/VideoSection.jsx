@@ -20,7 +20,7 @@ const VideoSection = () => {
         <div className="relative overflow-hidden pb-[56.25%]"> {/* Aspect Ratio for 16:9 videos */}
           {/* Video Thumbnail */}
           <iframe
-            src="https://www.youtube.com/embed/do8TA0eif4E?rel=0"
+            src="https://www.youtube.com/embed/U1NP1EnFtso?si=KaiSaxAdrt890wOs"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

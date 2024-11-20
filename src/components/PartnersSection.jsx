@@ -34,6 +34,9 @@ const PartnersSection = () => {
         <div className="flex justify-center">
           <Image src="/7.png" alt="Instituto da Criança" width={150} height={50} objectFit="contain" />
         </div>
+        <div className="flex justify-center">
+          <Image src="/comite.docx" alt="Comite" width={150} height={50} objectFit="contain" />
+        </div>
       </div>
     </div>
   );

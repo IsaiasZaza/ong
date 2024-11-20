@@ -1,12 +1,12 @@
 const Cards = () => {
   return (
-    <section className="py-8 bg-white">
+    <section className="py-8 bg-white lg:px-80 md:px-16">
       <div className="text-center">
         <h2 className="text-xl font-bold text-[#F97316] mb-8 md:mb-12">
           A Gamboa Ação atua em quatro áreas
         </h2>
       </div>
-      <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-24">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16 justify-items-center">
         {/* Educação */}
         <div className="flex flex-col items-center">
           <div className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-[#63C5EC] rounded-full flex items-center justify-center">
@@ -52,7 +52,7 @@ const Cards = () => {
               className="w-24 h-20 md:w-28 md:h-24 lg:w-32 lg:h-28"
             />
           </div>
-          <p className="mt-4 text-blue-400 text-lg md:text-xl font-bold">Saúde e Higiene</p>
+          <p className="mt-4 text-[#63C5EC] text-lg md:text-xl font-bold">Saúde e Higiene</p>
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ const Header = () => {
               alt="Logo Vaga Lume"
               width={150}
               height={100}
-              className="mr-3 w-1/2 sm:w-1/3 md:w-[150px] lg:w-[150px]"
+              className="mr-3 w-3/4 md:w-[150px] lg:w-[150px]"
             />
           </a>
         </div>
