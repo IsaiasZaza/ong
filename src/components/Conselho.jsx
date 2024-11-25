@@ -26,7 +26,7 @@ const Conselho = () => {
         {/* Andrea Américo */}
         <div className="flex flex-col md:flex-row items-start space-y-4 md:space-y-0 md:space-x-6">
           <img
-            src="/Andrea-Americo.png" // Ajuste o caminho da imagem
+            src="/andrea.png" // Ajuste o caminho da imagem
             alt="Andrea Américo"
             className="w-36 h-36 object-cover rounded-md"
           />

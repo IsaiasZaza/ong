@@ -82,34 +82,30 @@ export default function TimelineSwiper() {
 
             {/* Swiper Container */}
             <div className="container mx-auto px-4 relative z-10">
-                <Swiper
-                    spaceBetween={20}
-                    slidesPerView={1}
-                    loop={true}
-                    pagination={{ clickable: true }}
-                    modules={[Navigation, Autoplay, Pagination]}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
-                    breakpoints={{
-                        640: { slidesPerView: 1 },
-                        768: { slidesPerView: 2 },
-                        1024: { slidesPerView: 3 },
-                    }}
-                >
-                    {timelineData.map((item, index) => (
+            <Swiper
+                spaceBetween={20}
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+                navigation={true} // Ativa as setas de navegação
+                modules={[Navigation, Pagination]} // Certifique-se de incluir Navigation e Pagination
+                breakpoints={{
+                    640: { slidesPerView: 1 },
+                    768: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                }}
+            >
+                {timelineData.map((item, index) => (
                         <SwiperSlide
                             key={index}
-                            className="bg-white p-4 rounded-lg shadow-lg flex flex-col justify-between"
-                            style={{ minHeight: "500px" }}
-                        >
-                            {/* Imagem */}
-                            <div
+                        className="bg-white p-4 rounded-lg shadow-lg flex flex-col justify-between"
+                        style={{ minHeight: "500px" }}
+                    >
+                        {/* Imagem */}
+                        <div
                                 className="h-56 w-full bg-cover bg-center rounded-lg mb-4"
-                                style={{ backgroundImage: `url(${item.image})` }}
-                            ></div>
-
+                            style={{ backgroundImage: `url(${item.image})` }}
+                        ></div>
+                            
                             {/* Ano */}
                             <h3 className="text-lg md:text-xl font-bold mb-2 text-orange-500 px-2 md:px-4">
                                 {item.year}
@@ -120,21 +116,22 @@ export default function TimelineSwiper() {
                                 {item.text}
                             </p>
 
-                            {/* Link (caso exista) */}
+                                {/* Link (caso exista) */}
                             {item.link && (
                                 <a
                                     href={item.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-500 underline mt-4"
-                                >
-                                    Saiba mais
-                                </a>
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-500 underline mt-4"
+                                    >
+                                        Saiba mais
+                                    </a>
                             )}
-                        </SwiperSlide>
+                            </SwiperSlide>
                     ))}
-                </Swiper>
-            </div>
-        </div>
-    );
+                    </Swiper>
+        </div> 
+        </div >
+
+    ); 
 }

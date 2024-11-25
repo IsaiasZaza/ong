@@ -11,9 +11,9 @@ export default function comoDoar() {
       <main>
         {/* Componente para telas grandes */}
         <div
-          className="relative bg-gray-100 h-[300px] sm:h-[400px] lg:h-[500px] bg-no-repeat flex items-center justify-between p-4 lg:p-16 hidden lg:flex"
+          className="relative bg-gray-100 h-[400px] sm:h-[400px] lg:h-[700px] bg-no-repeat flex items-center justify-between p-4 lg:p-16 hidden lg:flex"
           style={{
-            backgroundImage: "url('/personagem.png')",
+            backgroundImage: "url('/doing.png')",
             backgroundSize: 'cover',
           }}
         >
