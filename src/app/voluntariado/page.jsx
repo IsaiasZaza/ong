@@ -90,7 +90,7 @@ export default function voluntariado() {
                       className="object-cover"
                     />
                   </div>
-                  <h4 className="text-blue-500 font-bold text-lg">Voluntariado pro bono</h4>
+                  <h4 className="text-blue-500 text-lg">Voluntariado pro bono</h4>
                 </div>
               </div>
             </div>

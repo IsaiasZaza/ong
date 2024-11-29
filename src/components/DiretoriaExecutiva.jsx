@@ -36,9 +36,10 @@ const DiretoriaExecutiva = () => {
               Alvaro Menezes – <span className="font-bold italic">Gerente Geral</span>
             </h3>
             <p className="text-gray-700 py-4">
-              Administrador de Empresas, Gestor Esportivo e cursando MBA em Gestão e Desenvolvimento de Negócios pela PUC.
-              Possui mais de 15 anos de experiência em Comunicação e Marketing, gerenciou projetos para empresas como Petrobras
-              e TIM. Desde 2018, lidera a gestão e desenvolvimento institucional da Gamboa Ação.
+            Administrador de Empresas, Gestor Esportivo e cursando MBA em Gestão e Desenvolvimento de Negócios pela PUC. 
+            Possui mais de 15 anos de experiência em projetos de Gestão, Comunicação e Marketing, gerenciou projetos para empresas como Petrobras, 
+            Tim Brasil, Firjan e Mccarthy Tétrault (Canadá). Desde 2018, lidera a gestão e desenvolvimento institucional da Gamboa Ação.
+
             </p>
           </div>
         </div>

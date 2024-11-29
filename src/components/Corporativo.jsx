@@ -49,8 +49,9 @@ export default function Corporativo() {
                             </p>
                         </div>
                         <a
-                            href="https://wa.me/1234567890"
+                            href="https://wa.me/+5521988993699"
                             className="mt-8 bg-orange-500 text-white flex items-center justify-center gap-2 py-3 px-6 rounded-lg shadow-lg hover:bg-orange-600 transition-all text-lg font-bold"
+                            target="_blank"
                         >
                             ENTRE EM CONTATO <IoLogoWhatsapp className="text-3xl text-white" />
                         </a>

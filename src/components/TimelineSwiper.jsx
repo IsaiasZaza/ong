@@ -53,7 +53,8 @@ const timelineData = [
     {
         year: "2024",
         image: "/data9.png",
-        text: "A Gamboa Ação mudou para uma nova sede, e continua os programas de saúde e alimentação.  continua transformando vidas na região portuária do Rio de Janeiro."
+        text: "A Gamboa Ação continua transformando vidas na região portuária do Rio de Janeiro. Confira aqui:",
+        link: "https://youtu.be/_GoyvhwUuFE?si=c6LGaa5QT2nWu6JD"
     },
 ];
 
@@ -122,9 +123,9 @@ export default function TimelineSwiper() {
                                     href={item.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-blue-500 underline mt-4"
+                                        className="text-blue-500 underline mt-4 px-4"
                                     >
-                                        Saiba mais
+                                        <span className='mr-16'>Saiba mais</span>
                                     </a>
                             )}
                             </SwiperSlide>

@@ -6,7 +6,7 @@ const Cards = () => {
           A Gamboa Ação atua em quatro áreas
         </h2>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16 justify-items-center">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-16 lg:gap-52 justify-items-center mx-auto">
         {/* Educação */}
         <div className="flex flex-col items-center">
           <div className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-[#63C5EC] rounded-full flex items-center justify-center">

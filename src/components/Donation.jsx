@@ -16,7 +16,7 @@ const Donation = () => {
                     Escolha o valor e faça sua doação via conta bancária, PIX ou PayPal. Com doações recorrentes, podemos planejar com mais segurança e atuar continuamente, impactando vidas todos os dias!
                 </p>
                 <button className="bg-orange-500 text-white font-bold w-44 px-4 py-2 rounded-lg hover:bg-orange-600 transition duration-300">
-                    Doe agora!
+                    <a href="/comoDoar">Doe agora!</a>
                 </button>
             </section>
 
@@ -34,6 +34,7 @@ const Donation = () => {
                     <a
                         href="#"
                         className="text-blue-600 font-bold underline hover:text-blue-800 transition duration-300 mr-1"
+                        target="_blank"
                     >
                         Clique aqui
                     </a>

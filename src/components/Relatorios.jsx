@@ -37,7 +37,20 @@ const Relatorios = () => {
             ))}
           </div>
         </div>
+        <p className='text-xl font-semibold mb-12 text-center mt-12 '>Estatuto Social Gamboa Ação </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-24 underline">
+          <a
+            key=""
+            href="/estatutos/estatuto-social.pdf"
+            download="Estatuto_Social.pdf"
+            className="flex items-center text-blue-600 hover:underline"
+          >
+            <AiFillFolder className="h-6 w-6 mr-2" />
+            Estatuto Social
+          </a>
 
+
+        </div>
 
       </div>
     </>
