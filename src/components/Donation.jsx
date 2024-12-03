@@ -21,24 +21,24 @@ const Donation = () => {
             </section>
 
             {/* Bottom Section */}
-            <section className="bg-blue-100 py-16 text-center px-4">
-                <h3 className="text-blue-700 text-2xl md:text-3xl font-bold mb-8">
-                    Comemore com propósito
+            <section className="bg-blue-100 py-16 text-center px-4 font-sans">
+                <h3 className="text-[#004E96] text-2xl md:text-6xl font-bold mb-8">
+                    Comemore com <span className="block">propósito</span>
                 </h3>
-                <p className="text-blue-900 mb-2 w-full md:w-1/2 lg:w-1/3 mx-auto">
+                <p className="text-[#004E96] mb-2 w-full md:w-1/2 lg:w-1/2 mx-auto text-xl md:text-2xl">
                     Transforme sua comemoração (aniversário, casamento, bodas, etc.) em uma iniciativa solidária!
-                    <span className="font-bold text-blue-700"> Em vez de presentes, peça doações </span>
+                    <span className="font-bold text-[#004E96]"> Em vez de presentes, peça doações </span>
                     para a Gamboa Ação e ajude a transformar vidas.
                 </p>
-                <p className="text-blue-900 pt-8 text-lg md:text-xl">
+                <p className="text-[#004E96] pt-8 text-lg md:text-xl">
                     <a
-                        href="#"
-                        className="text-blue-600 font-bold underline hover:text-blue-800 transition duration-300 mr-1"
+                        href="https://forms.gle/rpYa4pceNauam6V56"
+                        className="text-[#004E96] underline hover:text-blue-800 transition duration-300 mr-1 text-2xl md:text-3xl"
                         target="_blank"
                     >
                         Clique aqui
                     </a>
-                    e receba um kit para divulgar com seus contatos!
+                    <a className="text-2xl md:text-3xl">e receba um kit para divulgar com seus contatos!</a>
                 </p>
             </section>
         </div>
