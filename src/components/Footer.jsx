@@ -20,7 +20,7 @@ const Footer = () => {
 
             {/* Coluna com a logo e links no final */}
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex flex-col h-full">
-              <img src="logo2.png" alt="Logo" className="w-48 h-auto" />
+              <img src="/logo2.png" alt="Logo" className="w-48 h-auto" />
             </div>
 
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex-col">
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center text-sm mt-8">
-          <p>R. Souza e Silva, 112 - Gamboa, Rio de Janeiro - RJ, 20220-560</p>
+          <p>R. Pedro Ernesto, 29 e 31 - Gamboa, Rio de Janeiro - RJ, 20220-350</p>
         </div>
       </footer>
     </>

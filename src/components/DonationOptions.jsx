@@ -60,14 +60,13 @@ const DonationOptions = () => {
                         </div>
                     </div>
 
-                    <h2 className="text-orange-500 font-bold text-xl mb-2">Doe via PayPal</h2>
-                    <p className='mb-4'>Você será redirecionado<br />
-                        para a página segura do PayPal ao clicar no botão abaixo.
-                    </p>
                     <Link target='_blank' href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=RREGBJQ28YU2E&ssrt=1730225617926" className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full ">
-                        Doar via PayPal
+                        Doar com um Cartão
                     </Link>
-                    <p className="text-sm mt-2">Selecione: <strong>transformar em doação mensalmente</strong></p>
+                    <p className='mb-4 mt-3'>Você será redirecionado
+                        para a página segura do PayPal.
+                    </p>
+                    <p className="text-base mt-2">Selecione: <strong>transformar em doação mensalmente</strong></p>
                 </div>
             </div>
         </>

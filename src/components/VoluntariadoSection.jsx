@@ -11,7 +11,7 @@ const VoluntariadoSection = () => {
                         {/* Imagem da esquerda */}
                         <div className="md:w-1/2 w-full">
                             <img
-                                src="A.png"
+                                src="/aa.png"
                                 alt="Crianças participando de atividades"
                                 className="shadow-lg object-cover w-full h-64 sm:h-80 md:h-96 rounded-lg" // Adiciona bordas arredondadas
                             />
@@ -49,7 +49,7 @@ const VoluntariadoSection = () => {
                         {/* Imagem à direita */}
                         <div className="md:w-1/2 w-full">
                             <img
-                                src="B.png"
+                                src="/voluntariado2.png"
                                 alt="Criança jogando xadrez"
                                 className="shadow-lg object-cover w-full h-64 sm:h-80 md:h-96 rounded-lg" // Adiciona bordas arredondadas
                             />
@@ -61,7 +61,7 @@ const VoluntariadoSection = () => {
                         {/* Imagem da esquerda */}
                         <div className="md:w-1/2 w-full">
                             <img
-                                src="C.png"
+                                src="/C.png"
                                 alt="Voluntário com crianças"
                                 className="shadow-lg object-cover w-full h-64 sm:h-80 md:h-96 rounded-lg"
                             />

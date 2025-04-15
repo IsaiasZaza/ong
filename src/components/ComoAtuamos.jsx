@@ -1,16 +1,20 @@
+import Image from 'next/image';
+
 const ComoAtuamos = () => {
   return (
     <div className="bg-white p-8">
       <div className="max-w-6xl mx-auto">
-
         {/* Primeira seção: Imagem da esquerda e texto à direita */}
         <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
           {/* Imagem da esquerda */}
           <div className="md:w-1/2">
-            <img
-              src="como-atuamos1.png"
+            <Image
+              src="/como-atuamos1.png"
               alt="Crianças participando de atividades"
-              className="shadow-lg object-cover w-full h-64 md:h-96"
+              width={640} // Defina a largura original ou ideal da imagem
+              height={384} // Proporcional à largura
+              className="shadow-lg object-cover w-full h-auto"
+              priority
             />
           </div>
 
@@ -43,10 +47,13 @@ const ComoAtuamos = () => {
 
           {/* Imagem da direita */}
           <div className="md:w-1/2">
-            <img
-              src="como-atuamos2.png"
+            <Image
+              src="/como-atuamos2.png"
               alt="Criança jogando xadrez"
-              className="shadow-lg object-cover w-full h-64 md:h-96"
+              width={640} // Defina a largura original ou ideal da imagem
+              height={384} // Proporcional à largura
+              className="shadow-lg object-cover w-full h-auto"
+              priority
             />
           </div>
         </div>

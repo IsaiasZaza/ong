@@ -56,13 +56,11 @@ const Conselho = () => {
             </h3>
             <p className="text-gray-700 py-4">
               AKA Stella de Orleans e Bragança
-              Arquiteta formada pela FAU-RJ, com ampla experiência em projetos edificações residenciais e de design de interiores desde 1981.
-              Coordenadora do Curso de Design de Interiores da UVA e participante de eventos renomados como Casa Cor Rio e o "Ano do Brasil na França".
-              Apaixonada por projetos que promovem impacto positivo, Stella une arquitetura e inclusão em suas ações transformadoras.
-              Defendendo a transformação que se inicia de dentro para fora, alicerçada na conexão pessoal e no autoconhecimento,
-              Stella acredita que o sentimento de pertencimento, o acesso à educação de qualidade e a criação de espaços físicos
-              adequados são pilares essenciais para mudanças duradouras. Seu propósito é tornar possível que indivíduos positivamente
-              impactados atuem como catalisadores de transformação social no ambiente em que vivem.
+
+              Arquiteta formada pela UFRJ, com mais de 40 anos de experiência em projetos de edificações e design de interiores, premiada pelo IAB e
+              ADEMI Rio. Desde 1995, atua como ativista pela inclusão social. Engajada em projetos de transformação pessoal e social,
+              é aluna da Oneness University (Índia) desde 2006. Stella defende educação de qualidade, autoconhecimento e espaços físicos
+              adequados como pilares para mudanças duradouras.
             </p>
           </div>
         </div>
@@ -121,25 +119,6 @@ const Conselho = () => {
               Desde 1996 atua em Furnas, passando por áreas de planejamento financeiro, orçamento e gestão de seguros. Atualmente,
               trabalha em governança, risco e compliance na Eletrobras,
               além de integrar o Conselho Administrativo da Sociedade Nossa Senhora da Misericórdia, instituição sem fins lucrativos.
-            </p>
-          </div>
-        </div>
-
-        {/* Rosana Tinoco */}
-        <div className="flex flex-col md:flex-row items-start space-y-4 md:space-y-0 md:space-x-6">
-          <img
-            src="/Rosana-Tinoco.png" // Ajuste o caminho da imagem
-            alt="Rosana Tinoco"
-            className="w-36 h-36 object-cover rounded-md"
-          />
-          <div>
-            <h3 className="text-xl font-semibold text-black">
-              Rosana Tinoco – <span className="font-bold italic">Conselho Fiscal</span>
-            </h3>
-            <p className="text-gray-700 py-4">
-              Graduada em Ciências Contábeis e Direito, com pós-graduação em Auditoria. Servidora da Justiça Federal desde 1999,
-              com vasta experiência em Auditoria Interna e Cálculos Judiciais. Atuou na Fundação de Previdência Privada do Banco Central,
-              no Grupo Brahma e na Price Waterhouse-Coopers. Atualmente, dedica-se à área de Auditoria na Justiça Federal, trazendo grande expertise técnica.
             </p>
           </div>
         </div>

@@ -33,7 +33,7 @@ const DiretoriaExecutiva = () => {
           />
           <div>
             <h3 className="text-xl font-semibold text-black">
-              Alvaro Menezes – <span className="font-bold italic">Gerente Geral</span>
+              Alvaro Menezes – <span className="font-bold italic">Gerente Geral e Cofundador da Gamboa Ação</span>
             </h3>
             <p className="text-gray-700 py-4">
             Administrador de Empresas, Gestor Esportivo e cursando MBA em Gestão e Desenvolvimento de Negócios pela PUC. 

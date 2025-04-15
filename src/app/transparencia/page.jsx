@@ -26,8 +26,8 @@ export default function oQueFazemos() {
                     />
 
                     <div className="relative z-10 flex flex-col justify-end w-3/4 sm:w-1/2 lg:w-64 h-full ml-4 sm:ml-8 lg:ml-40 mb-4 sm:mb-8 lg:mb-16 py-3">
-                        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl shadow-lg w-40">
-                            Voluntariado
+                        <button className="bg-orange-500 text-white py-2 px-2 rounded-lg text-lg sm:text-base lg:text-2xl shadow-lg w-40">
+                            Transparência
                         </button>
                     </div>
                 </div>

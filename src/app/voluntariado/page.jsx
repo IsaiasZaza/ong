@@ -2,60 +2,97 @@
 
 import Image from 'next/image';
 import React from 'react';
+import { motion } from 'framer-motion'; // Importando framer-motion
 import VoluntariadoSection from '@/components/VoluntariadoSection';
-
 import VideoSection from '@/components/VideoSection';
 import Donation from '@/components/Donation';
 import Corporativo from '@/components/Corporativo';
 
 export default function voluntariado() {
+  // Variantes para animações
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+  };
+
+  const fadeIn = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 0.8 } },
+  };
+
   return (
     <>
       <main>
-
         <section>
           {/* Header Section with background image */}
-          <div className="relative w-full h-[40vh] sm:h-[50vh] lg:h-[60vh]">
+          <motion.div
+            className="relative w-full h-[40vh] sm:h-[50vh] lg:h-[60vh]"
+            initial="hidden"
+            animate="visible"
+            variants={fadeIn}
+          >
+            {/* Desktop Background */}
             <Image
-              src="/voluntariado.png" // Imagem para desktop
+              src="/voluntariado.png"
               alt="Grupo de voluntários"
               fill
-              className="object-cover grayscale lg:block hidden" // Visível apenas para desktop
+              className="object-cover grayscale lg:block hidden"
             />
+            {/* Mobile Background */}
             <Image
-              src="/mb6.png" // Imagem para mobile
+              src="/mb6.png"
               alt="Grupo de voluntários"
               fill
-              className="object-cover grayscale sm:block lg:hidden" // Visível apenas para mobile
+              className="object-cover grayscale sm:block lg:hidden"
             />
-
-            <div className="relative z-10 flex flex-col justify-end w-3/4 sm:w-1/2 lg:w-64 h-full ml-4 sm:ml-8 lg:ml-40 mb-4 sm:mb-8 lg:mb-16 py-3">
+            {/* Header Button */}
+            <motion.div
+              className="relative z-10 flex flex-col justify-end w-3/4 sm:w-1/2 lg:w-64 h-full ml-4 sm:ml-8 lg:ml-40 mb-4 sm:mb-8 lg:mb-16 py-3"
+              variants={fadeInUp}
+            >
               <button className="bg-orange-500 text-white py-2 px-4 rounded-lg text-lg sm:text-base lg:text-2xl shadow-lg w-40">
                 Voluntariado
               </button>
-            </div>
-          </div>
-
-
+            </motion.div>
+          </motion.div>
 
           {/* Content Section */}
-          <div className="bg-white">
+          <motion.div
+            className="bg-white"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={fadeIn}
+          >
             <div className="mx-auto text-center">
               {/* Title and Description */}
-              <h3 className="text-blue-400 text-2xl mb-4 mt-4">
+              <motion.h3 className="text-blue-400 text-2xl mb-4 mt-4" variants={fadeInUp}>
                 Seja parte da transformação na Gamboa Ação.
-              </h3>
-              <p className="text-orange-500 text-xl mb-8">
+              </motion.h3>
+              <motion.p className="text-orange-500 text-xl mb-8" variants={fadeInUp}>
                 Formas de Atuar Voluntariamente
-              </p>
+              </motion.p>
 
               {/* Cards Section */}
-              <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+              <motion.div
+                className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.2 }}
+                variants={{
+                  visible: {
+                    transition: { staggerChildren: 0.2 },
+                  },
+                }}
+              >
                 {/* Card 1: Voluntariado mão na massa */}
-                <div className="flex flex-col items-center">
+                <motion.div
+                  className="flex flex-col items-center"
+                  variants={fadeInUp}
+                >
                   <div className="bg-orange-500 rounded-full w-32 h-32 md:w-48 md:h-48 flex items-center justify-center mb-4">
                     <Image
-                      src="/maoNaMassa.png" // ícone mão na massa
+                      src="/maoNaMassa.png"
                       alt="Mão na massa"
                       width={140}
                       height={140}
@@ -63,13 +100,16 @@ export default function voluntariado() {
                     />
                   </div>
                   <h4 className="text-blue-500 text-lg">Voluntariado mão na massa</h4>
-                </div>
+                </motion.div>
 
                 {/* Card 2: Voluntariado por competência */}
-                <div className="flex flex-col items-center">
+                <motion.div
+                  className="flex flex-col items-center"
+                  variants={fadeInUp}
+                >
                   <div className="bg-orange-500 rounded-full w-32 h-32 md:w-48 md:h-48 flex items-center justify-center mb-4">
                     <Image
-                      src="/co.png" // ícone por competência
+                      src="/co.png"
                       alt="Por competência"
                       width={140}
                       height={140}
@@ -77,13 +117,16 @@ export default function voluntariado() {
                     />
                   </div>
                   <h4 className="text-blue-500 text-lg">Voluntariado por competência</h4>
-                </div>
+                </motion.div>
 
                 {/* Card 3: Voluntariado pro bono */}
-                <div className="flex flex-col items-center">
+                <motion.div
+                  className="flex flex-col items-center"
+                  variants={fadeInUp}
+                >
                   <div className="bg-orange-500 rounded-full w-32 h-32 md:w-48 md:h-48 flex items-center justify-center mb-4">
                     <Image
-                      src="/bono.png" // ícone pro bono
+                      src="/bono.png"
                       alt="Pro bono"
                       width={140}
                       height={140}
@@ -91,11 +134,13 @@ export default function voluntariado() {
                     />
                   </div>
                   <h4 className="text-blue-500 text-lg">Voluntariado pro bono</h4>
-                </div>
-              </div>
+                </motion.div>
+              </motion.div>
             </div>
-          </div>
+          </motion.div>
         </section>
+
+        {/* Other Sections */}
         <VoluntariadoSection />
         <div>
           <Corporativo />
@@ -104,5 +149,5 @@ export default function voluntariado() {
         <Donation />
       </main>
     </>
-  )
+  );
 }

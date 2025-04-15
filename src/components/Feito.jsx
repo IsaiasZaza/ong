@@ -46,7 +46,7 @@ const Feito = () => {
               <Image
                 width={500}
                 height={400}
-                src="/swiperHome2.png" // Add more images if needed
+                src="/11.png" // Add more images if needed
                 alt="Third Image"
                 className="rounded-lg shadow-lg object-cover w-full"
               />

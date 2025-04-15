@@ -2,13 +2,13 @@ const RelatoriosAnuais = () => {
   const relatorios = [
     {
       ano: '1º Semestre / 2024',
-      imagem: '/relatorio2.png', // Substitua pelo caminho da imagem real
-      link: '/path-to-report-2024.pdf', // Substitua pelo caminho do arquivo
+      imagem: '/relatorio2.png', // Caminho correto da imagem
+      link: '/relatorioAtv/Relatório de Atividades 1º semestre 2024 - Gamboa Ação.pdf', // Caminho correto do PDF
     },
     {
       ano: '2023',
-      imagem: '/relatorio1.png', // Substitua pelo caminho da imagem real
-      link: '/path-to-report-2023.pdf',
+      imagem: '/relatorio1.png', // Caminho correto da imagem
+      link: '/atividades/Relatório de Atividades 2023 Gamboa Ação.pdf', // Caminho correto do PDF
     },
   ];
 
@@ -19,14 +19,15 @@ const RelatoriosAnuais = () => {
         {relatorios.map((relatorio, index) => (
           <a
             key={index}
-            href=""
+            href={relatorio.link}
+            download // Torna o arquivo baixável
             rel="noopener noreferrer"
-            className="flex justify-center items-center bg-gray-100 border border-gray-300 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out cursor-default"
+            className="flex justify-center items-center bg-gray-100 border border-gray-300 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"
           >
             {relatorio.imagem ? (
               <img
                 src={relatorio.imagem}
-                alt={relatorio.ano}
+                alt={`Relatório ${relatorio.ano}`}
                 className="object-cover w-full h-[250px] sm:h-[300px]"
               />
             ) : (

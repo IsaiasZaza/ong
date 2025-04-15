@@ -10,7 +10,7 @@ const NossasAtividades = () => {
           <h2 className="text-2xl font-bold  mb-4">Educação</h2>
 
           <img
-            src="activite1.png"
+            src="/activite1.png"
             alt="Educação"
             className="rounded-lg mb-4 w-full h-96 object-cover"
           />
@@ -25,7 +25,7 @@ const NossasAtividades = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-2xl font-bold  mb-4">Arte e Cultura</h2>
           <img
-            src="activite2.png"
+            src="/activite2.png"
             alt="Arte e Cultura"
             className="rounded-lg mb-4 w-full h-96 object-cover"
           />
@@ -40,7 +40,7 @@ const NossasAtividades = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-2xl font-bold  mb-4">Esporte e Lazer</h2>
           <img
-            src="activite3.png"
+            src="/activite3.png"
             alt="Esporte e Lazer"
             className="rounded-lg mb-4 w-full h-96 object-cover"
           />
@@ -56,7 +56,7 @@ const NossasAtividades = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-2xl font-bold  mb-4">Saúde e Higiene</h2>
           <img
-            src="activite4.png"
+            src="/activite4.png"
             alt="Saúde e Higiene"
             className="rounded-lg mb-4 w-full h-96 object-cover"
           />
